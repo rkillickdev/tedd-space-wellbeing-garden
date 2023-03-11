@@ -30,7 +30,7 @@ ___
 ## **STRATEGY**
 ___
 
-## **Why build this site?**
+### **Why build this site?**
 <br>
 The wellbeing garden was completed in April 2022. Market research carried out by Richmond Council within the local community has highlighted that many residents of TW11 do not know about the garden. So a core goal of the website will be to increase exposure in the hope of attracting a new diverse user base.
 
@@ -40,7 +40,7 @@ Research has highlighted the toll that the pandemic had on wellbeing and mental 
 
 <br>
 
-## **What is needed?**
+### **What is needed?**
 
 <br>
 
@@ -48,10 +48,14 @@ The website will be an online resource where users will go to understand more ab
 
 <br>
 
+___
+
 ## **User Stories**
 <br>
 
 ### First Time Visitor Goals:
+
+<br>
 
 * As a first time user, I want to know more about how the garden was created and it’s vision for the community.
 * As a first time visitor, I want to know how the garden could have a positive impact on my wellbeing, so I can decide whether I could use it.
@@ -59,12 +63,20 @@ The website will be an online resource where users will go to understand more ab
 * As a first time visitor, I want to be able to find out more about volunteering, so I can decide whether this could be for me.
 * As a first time visitor, I want to learn more about the activities that run in partnership with the garden, to decide whether these would be of any interest to me.
 
+<br>
+
 ### Return Visitor Goals:
+
+<br>
 
 * As a return visitor, I want to make contact to offer my time as a volunteer, so I can feel connected with the community.
 * As a return visitor, I want to learn more about how horticulture and being surrounded by nature can improve our mental health.
 
-### repeat Visitor Goals:
+<br>
+
+### Repeat Visitor Goals:
+
+<br>
 
 * As a repeat visitor, I want to be kept up to date with Tedd-Space news, updates and future events, so I can stay informed and feel connected.
 

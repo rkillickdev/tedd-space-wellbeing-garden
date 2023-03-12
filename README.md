@@ -80,3 +80,70 @@ ___
 
 * As a repeat visitor, I want to be kept up to date with Tedd-Space news, updates and future events, so I can stay informed and feel connected.
 
+<br>
+
+## **SCOPE**
+___
+
+<br>
+
+| Opportunity/ Problem                                       | Importance | Viability/ Feasibility |
+| :--------------------------------------------------------- | :--------: | :--------------------: |                         
+| Create online presence to increase awareness of the garden | 5          | 5                      |
+| Promote benefits of gardens for wellbeing                  | 4          | 5                      |      
+| Provide news/updates about garden.Promote upcoming events  | 3          | 1                      | 
+| Encourage volunteers to get involved                       | 4          | 4                      |
+| Promote community aspect of the garden                     | 3          | 4                      |
+| Start a blog. Horticulture/ Wellbeing etc                  | 2          | 1                      |
+
+
+
+<br>
+
+
+
+### **Features To Be Included:**
+
+<br>
+
+* An About section that makes the user aware of what the garden is and its primary goals and objectives.
+
+* A Wellbeing section that explains some of the design features used in the garden to promote positive mental health.
+
+* A Community section where the user can learn ways in which the garden can be used to stay active, interact with others and educate future generations.
+
+* A Visit section where users can obtain the information they need to visit the garden - address details, opening hours.
+
+* A Volunteer section where users can find out more about the volunteers that help run the garden.  If interested there is an opportunity for the user to make contact via a form.
+
+<br>
+
+### **Future Implementations:**
+
+<br>
+
+* Addition of a news, updates and upcoming events section.
+
+* Addition of a blog page with varied topics covered.
+
+<br>
+
+## **STRUCTURE**
+
+___
+
+<br>
+
+The header will display the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the site name will take you back to the top of the page.  Clicking on the navigation links will jump you to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.
+
+While navigating the site, content hinting will lead users from one section to the next, encouraging them to scroll.  There will be progressive disclosure with content revealed gradually.  A first time user will start by learning about the goals and ethos of the garden, then the benefits associated with a well being garden, then the additional opportunities to engage with the community through classes and activities.  Finally with all of this information presented to the user, they will hopefully want to visit and seek out the address/ opening hours.
+
+Clicking on the volunteer link will jump users to a new page with identical header and footer sections for consistency of user experience.  Here they will be presented some information about the volunteering opportunities.  The user will also have the opportunity to interact with a form by submitting their name, email address, using checkboxes to provide useful information and a text box for any further details.  A send button will allow users to submit this information.  
+
+The footer will also remain fixed at the bottom of the page, displaying social media icons so the user can intuitively link to the garden’s facebook, twitter and instagram pages.
+
+To ensure consistency of scenario, make navigation intuitive and align with user expectation, all links will have an effect applied on hovering so the user knows these are clickable. Colour palettes, spacing and typography will remain consistent throughout to give the user a sense of familiarity wherever they navigate to on the site.  Icons will be used alongside informational headings to hint at content.
+
+Links to any external sites will open in a new tab.
+
+

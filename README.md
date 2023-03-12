@@ -70,7 +70,7 @@ ___
 <br>
 
 * As a return visitor, I want to make contact to offer my time as a volunteer, so I can feel connected with the community.
-* As a return visitor, I want to learn more about how horticulture and being surrounded by nature can improve our mental health.
+* As a return visitor, I want to learn **more** about how horticulture and being surrounded by nature can improve our mental health.
 
 <br>
 

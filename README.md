@@ -53,6 +53,19 @@ ___
 ## **User Stories**
 <br>
 
+### Client Goals:
+
+<br>
+
+* As the client, I want to boost the profile of the garden by creating an online presence.
+* As the client, I want to increase accessibility of the garden by promoting the location and opening hours.
+* As the client, I want to encourage positive mental health in the community by promoting the benefits of the garden for emotional wellbeing.
+* As the client, I want to make users aware of how the garden can help them connect with the community through a range of organised events/ classes/ activities.
+* As the client, I want to increase the number of active volunteers
+* As the client, I want to make sure the site can be viwed on a range of different sized devices
+
+<br>
+
 ### First Time Visitor Goals:
 
 <br>

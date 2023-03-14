@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro&display=swap');
 
+:root {
+    --primary-color: #02401A;
+    --secondary-color: #DAD7CD;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -39,7 +44,7 @@ img {
 /* Navbar */
 
 .navbar {
-    height: 70px;
+    height: 70px;    
 }
 
 .navbar ul {
@@ -47,13 +52,13 @@ img {
 }
 
 .navbar a {
-    color: #02401A;
+    color: var(--primary-color);
     padding: 10px;
     margin: 0 5px;
 }
 
 .navbar a:hover {
-    border-bottom: 2px #02401A solid;
+    border-bottom: 2px var(--primary-color);
 }
 
 .navbar .flex {

@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #02401A;
-    --secondary-color: #DAD7CD;
+    --secondary-color: #F0F2EF;
 }
 
 * {
@@ -46,7 +46,7 @@ img {
 /* Navbar */
 
 .navbar {
-    height: 70px;    
+    height: 70px;       
 }
 
 .navbar ul {
@@ -74,6 +74,11 @@ img {
     width: 100%;
     overflow: hidden;
     position: relative;
+    color: var(--secondary-color)
+}
+
+#hero-image {
+    background: url('../images/hero-image-leaf-water.jpg');
 }
 
 /* About Section */

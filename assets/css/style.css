@@ -60,6 +60,15 @@ img {
     justify-content: space-between;
 }
 
+/* Hero Image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 /* Utilities */
 
 .container {
@@ -71,6 +80,15 @@ img {
 
 .flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     justify-content: center;
     align-items: center;
     height: 100%;

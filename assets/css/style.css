@@ -4,6 +4,7 @@
     --primary-color: #02401A;
     --secondary-color: #F0F2EF;
     --tertiary-color: #edede9;
+    --highlight-color: #217245;
 }
 
 * {
@@ -115,7 +116,7 @@ h2 i {
 .btn {
     display: inline-block;
     padding: 5px 20px;
-    background: var(--primary-color);
+    background: var(--highlight-color);
     color: var(--secondary-color);
     border: none;
     border-radius: 5px;
@@ -143,9 +144,9 @@ h2 i {
 
 .text-box {
     background-color: var(--tertiary-color);
-    border-color: var(--primary-color);
+    border-color: var(--highlight-color);
     border-radius: 5px;
-    box-shadow: 2px 2px var(--primary-color);
+    box-shadow: 2px 2px var(--highlight-color);
 }
 
 /* Utility Margin Settings */

@@ -159,4 +159,20 @@ To ensure consistency of scenario, make navigation intuitive and align with user
 
 Links to any external sites will open in a new tab.
 
+<br>
+
+# **Credits**
+
+## **Code Used**
+
+* [Tutorial for setting base CSS and setting up CSS Grid/ Flexbox](https://www.youtube.com/watch?v=p0bGHP-PXD4)
+
+## **Content**
+
+* [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)
+
+## **Media**
+
+## **Acknowledgements**
+
 

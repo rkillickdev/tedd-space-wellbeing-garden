@@ -30,7 +30,9 @@ h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 1.2;
-    margin: 10px 0;    
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;    
 }
 
 p {
@@ -74,6 +76,18 @@ img {
     position: relative;
 }
 
+/* About Section */
+
+#about {
+    height: 1200px;
+}
+
+#welcome-title {
+    text-align: center;
+    margin:  20px 0;
+    font-size: 280%;
+}
+
 /* Utilities */
 
 .container {
@@ -81,6 +95,10 @@ img {
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .flex {
@@ -97,4 +115,18 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Utility Margin Settings */
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 3rem 0;
 }

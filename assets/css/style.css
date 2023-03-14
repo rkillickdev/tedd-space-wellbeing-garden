@@ -3,6 +3,7 @@
 :root {
     --primary-color: #02401A;
     --secondary-color: #F0F2EF;
+    --tertiary-color: #edede9;
 }
 
 * {
@@ -42,6 +43,10 @@ p {
 
 img {
     width: 100%;
+}
+
+h2 i {
+    margin: 10px 0;
 }
 
 /* Navbar */
@@ -125,6 +130,13 @@ img {
 
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
+}
+
+.text-box {
+    background-color: var(--tertiary-color);
+    border-color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 2px 2px var(--primary-color);
 }
 
 /* Utility Margin Settings */

@@ -39,13 +39,39 @@ img {
 /* Navbar */
 
 .navbar {
-    color: #02401A;
     height: 70px;
 }
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #02401A;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #02401A solid;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+/* Utilities */
 
 .container {
     max-width: 1280px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }

@@ -54,7 +54,13 @@ h2 i {
 
 .navbar {
     height: 90px;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);       
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);     
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    background-color: var(--secondary-color);
 }
 
 .navbar ul {
@@ -102,6 +108,12 @@ h2 i {
 }
 
 /* Footer */
+
+#footer {
+    padding: 30px 10px;
+    background-color: var(--tertiary-color);
+
+}
 
 #social-links a {
     margin: 0 12px;

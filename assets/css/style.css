@@ -39,7 +39,7 @@ h1, h2 {
 }
 
 p {
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
 img {
@@ -163,10 +163,7 @@ h2 i {
 
 .text-box {
     background-color: var(--tertiary-color);
-}
-
-.text-box img {
-    padding: 1rem;    
+    padding: 0 1.5rem;
 }
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */

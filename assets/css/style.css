@@ -152,6 +152,10 @@ h2 i {
     background-color: var(--tertiary-color);
 }
 
+.text-box img {
+    padding: 1rem;    
+}
+
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */
 
 .my-1 {

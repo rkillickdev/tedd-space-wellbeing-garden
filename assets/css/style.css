@@ -2,8 +2,8 @@
 
 :root {
     --primary-color: #02401A;
-    --secondary-color: #F0F2EF;
-    --tertiary-color: #edede9;
+    --secondary-color: #fff;
+    --tertiary-color: #f4f4f4;
     --highlight-color: #217245;
 }
 
@@ -150,9 +150,6 @@ h2 i {
 
 .text-box {
     background-color: var(--tertiary-color);
-    border-color: var(--highlight-color);
-    border-radius: 5px;
-    box-shadow: 2px 2px var(--highlight-color);
 }
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */

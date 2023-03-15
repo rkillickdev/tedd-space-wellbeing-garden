@@ -166,7 +166,8 @@ Links to any external sites will open in a new tab.
 ## **Code Used**
 
 * [Tutorial for setting base CSS and setting up CSS Grid/ Flexbox](https://www.youtube.com/watch?v=p0bGHP-PXD4)
-* [Syntax for box shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+* [Inspiration for navbar box shadow from Tails.com website](https://tails.com/gb/)
+* [Solution for creating fixed navbar with content scrolling underneath](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox) 
 ## **Content**
 
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)

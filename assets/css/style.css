@@ -108,6 +108,13 @@ h2 i {
     height: 1200px;
 }
 
+/* Community Section */
+
+#community .flex {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 /* Footer */
 
 #footer {

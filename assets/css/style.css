@@ -86,6 +86,7 @@ h2 i {
 #hero-outer {
     height: 600px;
     width: 100%;
+    margin-top: 90px;
     overflow: hidden;
     position: relative;
     color: var(--secondary-color)
@@ -93,6 +94,7 @@ h2 i {
 
 #hero-image {
     background: url('../images/hero-image-leaf-water.jpg');
+    height: 100%;
 }
 
 /* About Section */
@@ -159,6 +161,12 @@ h2 i {
 
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
+}
+
+.top-row {
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .text-box {

@@ -97,16 +97,15 @@ h2 i {
     height: 100%;
 }
 
+#hero-text {
+    font-size: 350%;
+    text-align: center;
+}
+
 /* About Section */
 
 #about {
     height: 1200px;
-}
-
-#welcome-title {
-    text-align: center;
-    margin:  20px 0;
-    font-size: 280%;
 }
 
 /* Footer */

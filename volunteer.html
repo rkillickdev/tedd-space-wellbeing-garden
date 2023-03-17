@@ -53,44 +53,37 @@
                     <div class="flex">
                         <img src="assets/images/volunteer-gardener-planting.jpg" alt="Kneeling volunteer gardener digs soil with fork and trowel">
                     </div>
-                    <div class="volunteer-form text-box">
+                    <div class="text-box volunteer-form my-4">
                         <form method="POST" action="https://formdump.codeinstitute.net/">
                             <h2>Get in touch</h2>
                             <!-- First Name -->
                             <div class="form-control">
-                                <label for="fname">First Name</label>
-                                <input id="fname" type="text" name="first_name" required>                                   
+                                <input type="text" name="first_name" placeholder="First Name" required >                                   
                             </div>
                             <!-- Last Name-->
                             <div class="form-control">
-                                <label for="lname">Last Name</label>
-                                <input id="lname" type="text" name="last_name" required>       
+                                <input type="text" name="last_name" placeholder="Last Name" required>       
                             </div>
                             <!-- Email Address -->
                             <div class="form-control">
-                                <label for="email">Email Address</label>
-                                <input id="email" type="email" name="email_address" required>
+                                <input type="email" name="email_address" placeholder="Email Address" required>
                             </div>
-                            <!-- Availability Weekday-->
+                            <!-- Availability dropdown menu -->
+                            <div class="form-control">  
+                                <input type="text" list="days" name="preferred_day" placeholder="When are you available?">
+                                <datalist id="days">
+                                    <option value="Monday"></option>
+                                    <option value="Tuesday"></option>
+                                    <option value="Wednesday"></option>
+                                    <option value="Thursday"></option>
+                                    <option value="Friday"></option>
+                                    <option value="Saturday"></option>
+                                    <option value="Sunday"></option>
+                                    <option value="Any"></option>
+                                </datalist>
+                            </div>                           
                             <div class="form-control">
-                                <label for="weekday">Weekday</label>
-                                <input id="weekday" type="radio" name="availability" value="weekday" required>
-                            </div>
-                            <!-- Availability Weekend-->
-                            <div class="form-control">
-                                <label for="weekend">Weekend</label>
-                                <input id="weekend" type="radio" name="availability" value="weekend">
-                            </div>
-                            <!-- Availability Any -->
-                            <div class="form-control">
-                                <label for="any">Any</label>
-                                <input id="any" type="radio" name="availability" value="any">
-                            </div>
-                            <!-- Further Details -->
-                            <div class="form-control">
-                                <label for="details">Further Details</label>
-                                <br>
-                                <textarea id="details" cols="50" rows="10" name="feedback" placeholder="Type Message Here"></textarea>
+                                <textarea cols="50" rows="10" name="feedback" placeholder="Tell us about yourself..."></textarea>
                                 <br>
                             </div>
                             <!-- Submit button -->

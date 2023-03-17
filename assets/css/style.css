@@ -44,6 +44,7 @@ p {
 
 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 h2 i {
@@ -230,6 +231,7 @@ h2 i {
 .text-box {
     background-color: var(--tertiary-color);
     padding: 0 1.5rem;
+    border-radius: 5px;
 }
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */

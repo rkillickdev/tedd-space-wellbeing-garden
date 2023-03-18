@@ -88,6 +88,7 @@ h2 i {
 .hero-text {
     font-size: 350%;
     text-align: center;
+    animation: fadeIn 4s;
 }
 
 #hero-outer {
@@ -100,7 +101,7 @@ h2 i {
 }
 
 #hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../images/hero-image-leaf-water.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../images/hero-image-leaf-water.jpg');
     height: 100%;
 }
 
@@ -114,6 +115,13 @@ h2 i {
     align-items: flex-end;
     margin-right: 30px;
     padding-bottom: 60px;
+}
+
+/* Hero text fade in */
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 0.9}
 }
 /* About Section */
 

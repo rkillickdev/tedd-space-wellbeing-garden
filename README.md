@@ -168,7 +168,8 @@ Links to any external sites will open in a new tab.
 * [Tutorial for setting base CSS and setting up CSS Grid/ Flexbox](https://www.youtube.com/watch?v=p0bGHP-PXD4)
 * [Inspiration for navbar box shadow from Tails.com website](https://tails.com/gb/)
 * [Solution for creating fixed navbar with content scrolling underneath](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox)
-* [Tutorial for creating picture slideshow on community page](https://www.youtube.com/watch?v=McPdzhLRzCg) 
+* [Tutorial for creating picture slideshow on community page](https://www.youtube.com/watch?v=McPdzhLRzCg)
+* [Inspiration for linear gradient on hero background image](https://www.w3schools.com/howto/howto_css_hero_image.asp) 
 ## **Content**
 
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)

@@ -27,7 +27,7 @@ ul {
 
 a {
     text-decoration: none;
-    color:var(--primary-color);
+    color: inherit;
 }
 
 h1, h2 {
@@ -70,17 +70,16 @@ h2 i {
 }
 
 .navbar a {
-    color: var(--primary-color);
-    padding: 10px;
+    padding: 5px 10px;
     margin: 0 5px;
-}
-
-.navbar a:hover {
-    border-bottom: 2px var(--primary-color);
 }
 
 .navbar .flex {
     justify-content: space-between;
+}
+
+#top-menu a:hover {
+    border-bottom: 2px solid var(--primary-color);
 }
 
 /* Hero Image */
@@ -88,7 +87,11 @@ h2 i {
 .hero-text {
     font-size: 350%;
     text-align: center;
-    animation: fadeIn 4s;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
 }
 
 #hero-outer {

@@ -100,7 +100,7 @@ h2 i {
 }
 
 #hero-image {
-    background: url('../images/hero-image-leaf-water.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../images/hero-image-leaf-water.jpg');
     height: 100%;
 }
 

@@ -294,7 +294,10 @@ h2 i {
 .text-column {
     flex-direction: column;
     justify-content: space-between;
+}
 
+#wellbeing .text-column {
+    justify-content: normal;
 }
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */

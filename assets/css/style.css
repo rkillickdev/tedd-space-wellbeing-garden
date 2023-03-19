@@ -134,11 +134,6 @@ h2 i {
     0% {opacity: 0}
     100% {opacity: 0.9}
 }
-/* About Section */
-
-#about {
-    height: 1200px;
-}
 
 /* Community Section */
 
@@ -295,6 +290,12 @@ h2 i {
     background-color: var(--tertiary-color);
     padding: 0 1.5rem;
     border-radius: 5px;
+}
+
+.text-column {
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */

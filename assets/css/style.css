@@ -75,7 +75,8 @@ h2 i {
 }
 
 .active {
-    border-bottom: 1px solid var(--primary-color);
+    font-weight: bold;
+    /* border-bottom: 1px solid var(--primary-color); */
 }
 
 .navbar .flex {
@@ -263,8 +264,6 @@ h2 i {
 #social-links a {
     margin: 0 12px;
 }
-
-
 
 .container {
     max-width: 1280px;

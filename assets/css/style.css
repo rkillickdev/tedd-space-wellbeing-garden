@@ -141,17 +141,24 @@ h2 i {
 
 /* About Section */
 
-#goals .text-column {
+/* #goals .text-column {
     justify-content: space-between;
-}
+} */
 
 /* Community Section */
 
 #timetable {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../images/hero-image-leaf-water.jpg');
+    font-family: 'Amatic SC', cursive;
+    font-size: 150%;
     color: var(--secondary-color);
     height: 100%;
     border-radius: 5px;
+}
+
+#timetable h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 200%;
 }
 
 #activities a {
@@ -257,7 +264,7 @@ h2 i {
     margin: 0 12px;
 }
 
-/* Utilities */
+
 
 .container {
     max-width: 1280px;
@@ -316,6 +323,20 @@ h2 i {
     flex-direction: column;
     justify-content: normal;
 }
+
+/* Media Queries */
+
+/*Tablets and under */
+
+@media (max-width: 950px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem 0; 
+    }
+   
+}
+
+/* Utilities */
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */
 

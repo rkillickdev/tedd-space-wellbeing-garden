@@ -338,20 +338,28 @@ h2 i {
     }
 
     .navbar {
-        height: 140px;
+        height: 180px;
     }
 
     .top-row {
-        margin-top: 140px;        
+        margin-top: 180px;        
+    }
+
+    .navbar h1 {
+        margin: 0;
     }
         
     .navbar .flex {
         flex-direction: column;
-        justify-content:space-evenly;
+        justify-content: center;
+    }
+
+    #top-menu {
+        margin-bottom: 5px;
     }
 
     #hero-outer {
-        margin-top: 140px; 
+        margin-top: 180px; 
     }
    
 }

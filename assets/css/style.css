@@ -137,10 +137,10 @@ h2 i {
 
 /* Community Section */
 
-#community .flex {
+/* #community .flex {
     flex-direction: column;
     justify-content: space-around;
-}
+} */
 
 /* Photo Slideshow code referenced from Skillthrive YouTube Tutorial.  See README for link */
 
@@ -293,11 +293,11 @@ h2 i {
 
 .text-column {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: normal;
 }
 
-#wellbeing .text-column {
-    justify-content: normal;
+#goals .text-column {
+    justify-content: space-between;
 }
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */

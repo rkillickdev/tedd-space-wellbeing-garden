@@ -297,7 +297,7 @@ h2 i {
 .grid {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0 20px;
+    gap: 0 2rem;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -309,8 +309,8 @@ h2 i {
 
 .top-row {
     margin-top: 90px;
-    margin-bottom: 3rem;
-    padding-top: 3rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .text-box {

@@ -135,11 +135,24 @@ h2 i {
     100% {opacity: 0.9}
 }
 
+/* About Section */
+
+#goals .text-column {
+    justify-content: space-between;
+}
+
 /* Community Section */
 
-/* #community .flex {
+#timetable {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* #timetable .flex {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 } */
 
 /* Photo Slideshow code referenced from Skillthrive YouTube Tutorial.  See README for link */
@@ -297,8 +310,10 @@ h2 i {
     justify-content: normal;
 }
 
-#goals .text-column {
-    justify-content: space-between;
+.space-even {
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */

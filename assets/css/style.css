@@ -34,7 +34,7 @@ h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     line-height: 1.2;
-    margin: 10px 0;
+    margin: 20px 0;
     text-transform: uppercase;
     letter-spacing: 3px;    
 }
@@ -308,12 +308,6 @@ h2 i {
 .text-column {
     flex-direction: column;
     justify-content: normal;
-}
-
-.space-even {
-    flex-direction: column;
-    justify-content: space-evenly;
-
 }
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */

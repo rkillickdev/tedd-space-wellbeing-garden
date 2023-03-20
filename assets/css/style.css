@@ -270,7 +270,7 @@ h2 i {
     display: inline-block;
     padding: 5px 20px;
     margin-bottom: 20px;
-    background: var(--highlight-color);
+    background: var(--primary-color);
     color: var(--secondary-color);
     border: none;
     border-radius: 5px;

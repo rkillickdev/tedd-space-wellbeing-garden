@@ -85,14 +85,16 @@ h2 i {
 
 #logo {
     justify-content: flex-start;
+    margin-left: 12px;
+    text-align: center;
 }
 
 #hamnav .toggle {
     position: absolute;
     cursor: pointer;
-    margin: 0 1rem;
-    right: 24px;
-    top: 12px;
+    margin-right: 52px;
+    right: 0;
+    top: 15px;
 }
 
 #hamnav .close {
@@ -109,7 +111,6 @@ h2 i {
     color: var(--primary-color);
     font-size: 4rem;
     font-style: normal;
-    margin-bottom: 5px;
 }
 
 #hamnav .hamburger-checkbox {

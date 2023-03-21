@@ -116,6 +116,10 @@ h2 i {
     display: none;
 }
 
+#hamburger:checked ~ ul.top-menu {
+    margin-bottom: 1rem;
+}
+
 #hamburger:checked ~ ul.top-menu li {
     display: block;
 }
@@ -133,7 +137,6 @@ h2 i {
         flex-direction: column;
         gap: 2rem;
         align-items: center;
-        margin: 1rem;
 }
     
 .top-menu li {
@@ -166,7 +169,7 @@ h2 i {
 #hero-outer {
     height: 600px;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 120px;
     overflow: hidden;
     position: relative;
     color: var(--secondary-color)

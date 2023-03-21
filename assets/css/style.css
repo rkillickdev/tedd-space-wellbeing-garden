@@ -138,6 +138,7 @@ h2 i {
         flex-direction: column;
         gap: 2rem;
         align-items: center;
+        font-size: 1.1rem;
 }
     
 .top-menu li {

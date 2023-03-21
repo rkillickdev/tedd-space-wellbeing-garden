@@ -52,7 +52,7 @@ h2 i {
     margin: 10px 0;
 }
 
-/* Navbar for desktop devices */
+/* Navbar for mobile devices */
 
 .navbar {
     height: auto;
@@ -148,6 +148,26 @@ h2 i {
 
 .top-menu li:hover {
     transform: scale(1.2);
+}
+
+/* Media query for desktop view */
+
+@media only screen and (min-width: 768px) {
+    .navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    #hamnav .toggle {
+        display: none;
+    }
+    .top-menu {
+        flex-direction: row;
+    }
+
+    #hamnav li {
+        display:block;
+    }
 }
 
 /* Hero Image */

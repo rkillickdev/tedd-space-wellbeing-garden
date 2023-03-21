@@ -87,6 +87,7 @@ h2 i {
     justify-content: flex-start;
     margin-left: 12px;
     text-align: center;
+    width: fit-content;
 }
 
 #hamnav .toggle {

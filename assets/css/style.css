@@ -175,7 +175,7 @@ h2 i {
 
 /* Media queries for mobile devices from 550px and down */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 450px) {
     .hero-text {
         font-size: 300%;
     }
@@ -247,14 +247,6 @@ h2 i {
     padding-bottom: 60px;
 }
 
-/* Media queries for mobile devices from 550px and down reduces hero text size*/
-
-@media only screen and (max-width: 450px) {
-    .hero-text {
-        font-size: 300%;
-    }
-}
-
 /* Hero text fade in */
 
 @keyframes fadeIn {
@@ -262,9 +254,9 @@ h2 i {
     100% {opacity: 0.9}
 }
 
-/* Media for query hero-text */
+/* Media for query hero-text from 950px and down */
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {   
     #hero-title {
         margin-left: 0;
     }
@@ -273,6 +265,16 @@ h2 i {
     }
 }
 
+/* Media queries for mobile devices from 550px and down reduces hero text size */
+
+@media only screen and (max-width: 450px) {
+    .hero-text {
+        font-size: 300%;
+    }
+    #hero-outer {
+        margin-top: 177.3px;
+    }
+}
 
 /* About Section */
  
@@ -500,14 +502,23 @@ h2 i {
 
 /* Media Queries */
 
-/*Tablets and under */
+/* For devices 950px and under grid reduces to 1 column */
 
-@media (max-width: 950px) {
+@media only screen and (max-width: 950px) {
     .grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem 0; 
     }
 }
+
+/* For devices 450px and under top row margin increases to allow for expanded header */
+
+@media only screen and (max-width: 450px) {
+    .top-row {
+        margin-top: 177.3px;
+    }
+}
+
 
 /* Utilities */
 

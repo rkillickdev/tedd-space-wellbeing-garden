@@ -404,12 +404,22 @@ h2 i {
     color: var(--primary-color);
 }
 
-.volunteer-form textarea {
+/* Apply body font and colour to placeholder text in form */
+
+::placeholder {
+    font-family: 'source sans pro', sans-serif;
+    color: var(--primary-color);
+}
+/* Apply body font and colour to text area field */
+
+textarea {
     width: 100%;
     border: 0.5px solid var(--primary-color);
     border-radius: 0.5px;
     font-family: 'source sans pro', sans-serif;
+    padding: 5px;
     font-size: 14px;
+    color: var(--primary-color);
 }
 
 /* Footer */

@@ -499,6 +499,14 @@ textarea {
     transform: scale(1.1);    
 }
 
+/* Form submission thank you page */
+
+#thankyou .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 0;
+    width: 100%;
+}
+
 /* Utilities */
 
 .container {

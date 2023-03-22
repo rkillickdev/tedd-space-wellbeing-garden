@@ -149,6 +149,8 @@ h2 i {
     flex-basis: 0;
 }
 
+/* Hover effect for header naviagtion menu items */
+
 .top-menu li:hover {
     transform: scale(1.2);
 }
@@ -415,7 +417,6 @@ h2 i {
 #footer {
     padding: 30px 10px;
     background-color: var(--tertiary-color);
-
 }
 
 #footer a {
@@ -437,6 +438,11 @@ h2 i {
 
 #social-links a {
     margin: 0 12px;
+}
+
+#social-links i:hover {
+    color: var(--highlight-color);
+    transform: scale(1.1);    
 }
 
 /* Utilities */
@@ -461,6 +467,13 @@ h2 i {
     color: var(--secondary-color);
     border: none;
     border-radius: 5px;
+}
+
+/* Hover color transform effect for buttons */
+
+.btn:hover {
+    background: var(--highlight-color);
+    transform: scale(1.1);
 }
 
 .flex {

@@ -170,7 +170,8 @@ Links to any external sites will open in a new tab.
 * [Solution for creating fixed navbar with content scrolling underneath](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox)
 * [Tutorial for creating picture slideshow on community page](https://www.youtube.com/watch?v=McPdzhLRzCg)
 * [Inspiration for linear gradient on hero background image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
-* [Hero image text fade in animation](https://blog.hubspot.com/website/css-fade-in) 
+* [Hero image text fade in animation](https://blog.hubspot.com/website/css-fade-in)
+* [Tutorial for creating hamburger nav menu for mobile devices](https://www.youtube.com/watch?v=SIzi9z8mrTk) 
 ## **Content**
 
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)

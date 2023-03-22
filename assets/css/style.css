@@ -72,7 +72,7 @@ h2 i {
 
 .navbar img {
     width: auto;
-    margin: 0 20px 10px 0;
+    margin: 0 12px 10px 0;
 }
 
 .navbar li {
@@ -191,12 +191,16 @@ h2 i {
         margin-left: 0;
         align-items: center;
     }
-    #logo img, h1 {
-        margin-bottom: 0;
-    }
+
     #logo img {
         margin-top: 6px;
+        margin-bottom: 0;       
     }
+
+    #logo h1 {
+        margin-bottom: 0;
+    }
+    
     #hamnav .toggle {
         position:unset;
         margin: 0;

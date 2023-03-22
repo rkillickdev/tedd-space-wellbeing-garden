@@ -171,7 +171,9 @@ Links to any external sites will open in a new tab.
 * [Tutorial for creating picture slideshow on community page](https://www.youtube.com/watch?v=McPdzhLRzCg)
 * [Inspiration for linear gradient on hero background image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 * [Hero image text fade in animation](https://blog.hubspot.com/website/css-fade-in)
-* [Tutorial for creating hamburger nav menu for mobile devices](https://www.youtube.com/watch?v=SIzi9z8mrTk) 
+* [Tutorial for creating hamburger nav menu for mobile devices](https://www.youtube.com/watch?v=SIzi9z8mrTk)
+* [How to style placeholder text](https://www.samanthaming.com/tidbits/57-styling-css-placeholder/)
+
 ## **Content**
 
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)

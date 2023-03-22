@@ -415,6 +415,32 @@ h2 i {
     font-family: 'source sans pro', sans-serif;
     color: var(--primary-color);
 }
+
+/*  Vendor prefixes for browser compatability */
+
+/* WebKit, Edge */
+::-webkit-input-placeholder {
+    color: var(--primary-color);
+  }
+  /* Firefox 4-18 */
+  :-moz-placeholder {
+    color: var(--primary-color);
+    opacity: 1;
+  }
+  /* Firefox 19+ */
+  ::-moz-placeholder {
+    color: var(--primary-color);
+    opacity: 1;
+  }
+  /* IE 10-11 */
+  :-ms-input-placeholder {
+    color: var(--primary-color);
+  }
+  /* Edge */
+  ::-ms-input-placeholder {
+    color: var(--primary-color);
+  }
+
 /* Apply body font and colour to text area field */
 
 textarea {

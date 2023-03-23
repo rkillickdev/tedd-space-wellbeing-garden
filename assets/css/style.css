@@ -487,15 +487,19 @@ textarea {
     color: var(--primary-color);
 }
 
+/* Form submission thank you page */
+
+#thankyou .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem 0;
+    width: 100%;
+}
+
 /* Footer */
 
 #footer {
     padding: 30px 10px;
     background-color: var(--tertiary-color);
-}
-
-#footer a {
-    width: fit-content;
 }
 
 #footer h3 {
@@ -505,6 +509,10 @@ textarea {
     line-height: 1.2;
     margin: 10px 0;
     letter-spacing: 3px;    
+}
+
+#footer li {
+    margin: 12px 0;
 }
 
 #footer li:hover {
@@ -518,14 +526,6 @@ textarea {
 #social-links i:hover {
     color: var(--highlight-color);
     transform: scale(1.1);    
-}
-
-/* Form submission thank you page */
-
-#thankyou .grid {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2rem 0;
-    width: 100%;
 }
 
 /* Utilities */

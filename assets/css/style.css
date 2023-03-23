@@ -237,7 +237,7 @@ h2 i {
 }
 
 #hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../images/hero-image-leaf-water.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../images/hero-image-leaf-water-mobile.webp');
     height: 100%;
 }
 

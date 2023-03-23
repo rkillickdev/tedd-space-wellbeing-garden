@@ -180,6 +180,8 @@ Links to any external sites will open in a new tab.
 
 ## **Media**
 
+* [Free Logo Maker Website used for Tedd-Space logo](https://logomakr.com/app)
+
 ## **Acknowledgements**
 
 

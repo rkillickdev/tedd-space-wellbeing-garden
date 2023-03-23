@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:wght@300;500;700&family=Source+Sans+Pro:wght@400;700&display=swap');
 
-
 :root {
     --primary-color: #02401A;
     --secondary-color: #fff;
@@ -57,7 +56,8 @@ h2 i {
     margin: 10px 0;
 }
 
-/* Navbar for mobile devices */
+/* NAVIGATION MENU */
+/* Nav for mobile device from 450px to 950px */
 
 .navbar {
     height:fit-content;
@@ -155,7 +155,7 @@ h2 i {
     transform: scale(1.2);
 }
 
-/* Media queries for desktop view */
+/* Media queries for larger device view from 950px and above */
 
 @media only screen and (min-width: 950px) {
     .navbar .container {
@@ -175,7 +175,7 @@ h2 i {
     }
 }
 
-/* Media queries for mobile devices from 550px and down */
+/* Media queries for mobile devices from 450px and down */
 
 @media only screen and (max-width: 450px) {
     .hero-text {
@@ -211,7 +211,7 @@ h2 i {
     }
 }
 
-/* Hero Image */
+/* HERO IMAGE SECTION */
 
 .hero-text {
     font-size: 475%;
@@ -260,7 +260,7 @@ h2 i {
     100% {opacity: 0.9}
 }
 
-/* Media for query hero-text from 950px and down */
+/* Media queries to centre hero-text from 950px and down */
 
 @media only screen and (max-width: 950px) {   
     #hero-title {
@@ -271,7 +271,7 @@ h2 i {
     }
 }
 
-/* Media queries for mobile devices from 550px and down reduces hero text size */
+/* Media queries for mobile devices from 450px and down reduces hero text size and increases margin to allow for larger header */
 
 @media only screen and (max-width: 450px) {
     .hero-text {
@@ -282,20 +282,19 @@ h2 i {
     }
 }
 
-/* About Section */
+/* ABOUT SECTION */
  
 #goals .text-column {
     justify-content: space-between;
 }
 
-/* Wellbeing Section */
+/* WELLBEING SECTION */
 
 #features p {
     margin-top: 12px;
 }
 
-/* COMMUNITY PAGE */ 
-/* community-info section */
+/* COMMUNITY INFO SECTION */ 
 
 #timetable {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../images/hero-image-leaf-water.jpg');
@@ -311,7 +310,8 @@ h2 i {
     font-size: 200%;
 }
 
-/* Slideshow section. Code referenced from Skillthrive YouTube Tutorial.  See README for link */
+/* SLIDESHOW SECTION */
+/* Code referenced from Skillthrive YouTube Tutorial.  See README for link */
 
 .slider-wrapper {
     position: relative;
@@ -358,7 +358,7 @@ h2 i {
     opacity: 1;
 }
 
-/* activities section */
+/* ACTIVITIES SECTION */
 
 #activities a {
     font-weight: 700;
@@ -368,7 +368,8 @@ h2 i {
     border-bottom: 1px solid var(--primary-color);
 }
 
-/* VISIT PAGE */
+/* VISIT SECTION */
+/* Google map embedded with iframe */
 
 .google-map {
     padding-bottom: 50%;
@@ -382,6 +383,8 @@ h2 i {
     top: 0;
     position: absolute;
 }
+
+/* Contact and opening hours */
 
 .hours {
     display: flex;
@@ -413,7 +416,9 @@ h2 i {
     width: 100%;
 }
 
-/* Volunteer Form */
+/* VOLUNTEER SECTION */
+
+/* Form */
 
 .form-wrapper {
     display: flex;
@@ -497,7 +502,7 @@ textarea:focus {
     outline-color: var(--primary-color);
 }
 
-/* Form submission thank you page */
+/* THANKYOU SECTION */
 
 #thankyou .grid {
     grid-template-columns: repeat(1, 1fr);
@@ -505,7 +510,7 @@ textarea:focus {
     width: 100%;
 }
 
-/* Footer */
+/* FOOTER */
 
 #footer {
     padding: 30px 10px;
@@ -538,7 +543,7 @@ textarea:focus {
     transform: scale(1.1);    
 }
 
-/* Utilities */
+/* UTILITIES */
 
 .container {
     max-width: 1280px;
@@ -624,9 +629,6 @@ textarea:focus {
         margin-top: 177.3px;
     }
 }
-
-
-/* Utilities */
 
 /* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */
 

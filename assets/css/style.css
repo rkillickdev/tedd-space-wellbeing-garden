@@ -294,7 +294,8 @@ h2 i {
     margin-top: 12px;
 }
 
-/* Community Section */
+/* COMMUNITY PAGE */ 
+/* community-info section */
 
 #timetable {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../images/hero-image-leaf-water.jpg');
@@ -310,15 +311,7 @@ h2 i {
     font-size: 200%;
 }
 
-#activities a {
-    font-weight: 700;
-}
-
-#activities a:hover {
-    border-bottom: 1px solid var(--primary-color);
-}
-
-/* Photo Slideshow code referenced from Skillthrive YouTube Tutorial.  See README for link */
+/* Slideshow section. Code referenced from Skillthrive YouTube Tutorial.  See README for link */
 
 .slider-wrapper {
     position: relative;
@@ -365,7 +358,17 @@ h2 i {
     opacity: 1;
 }
 
-/* Visit Page */
+/* activities section */
+
+#activities a {
+    font-weight: 700;
+}
+
+#activities a:hover {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+/* VISIT PAGE */
 
 .google-map {
     padding-bottom: 50%;

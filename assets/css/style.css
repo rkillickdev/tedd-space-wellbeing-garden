@@ -286,7 +286,13 @@ h2 i {
  
 #goals .text-column {
     justify-content: space-between;
-} 
+}
+
+/* Wellbeing Section */
+
+#features p {
+    margin-top: 12px;
+}
 
 /* Community Section */
 

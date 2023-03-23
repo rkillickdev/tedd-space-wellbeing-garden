@@ -490,6 +490,13 @@ textarea {
     color: var(--primary-color);
 }
 
+/* Apply primary colour to outline when form inputs and textarea are in focus */
+
+input:focus,
+textarea:focus {
+    outline-color: var(--primary-color);
+}
+
 /* Form submission thank you page */
 
 #thankyou .grid {

@@ -151,9 +151,9 @@ ___
 
 <br>
 
-* The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo wil always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  
+* The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo wil always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  The current page link in the menu shows as bold to always inform the user where they are within the site.   
 
-* To ensure a good user experience in all situations, a media query is used to prevent the naviagtion bar looking squashed and cluttered on mobile devices with smaller screen sizes.  The navigation bar is replaced with a burger menu toggler at 950px and under.  For screens at 450px and under, a further media query is used to reduce the overall size of these header items to give everything space.  When the burger icon is selected, the header expands vertically with the navigation menu displayed. I have chosen this method of using the burger icon as it follows convention and is therefore immediately recognisable to the user, providing them with an intuitive experience as they navigate the sight.  A recognisable cross icon is used to indicate to the user that clicking will close the menu.
+* To ensure a good user experience in all situations, a media query is used to prevent the naviagtion bar looking squashed and cluttered on mobile devices with smaller screen sizes.  The navigation bar is replaced with a burger menu toggler at 950px and under.  For screens at 450px and under, a further media query is used to reduce the overall size of these header items to give everything space.  When the burger icon is selected, the header expands vertically with the navigation menu displayed. I have chosen this method of using the burger icon as it follows convention and is immediately recognisable.  It therefore aligns with user expectation, providing them with an intuitive experience as they navigate the sight.  A recognisable cross icon is used to indicate to the user that clicking will close the menu.
 
 * The footer will feature at the bottom of each page, with social media links to the Tedd-Space Facebook, Twitter and Instagram pages opening in new browser tabs when clicked.  Font awesome icons are used as they are universally recognisable for the user without the need for text.  A hover effect which transforms the icon size to 110% and changes the colour to a lighter green indicates to the user that these links are clickable.  A secondary navigation menu is positioned in the centre of the footer, incase the user is ever at the bottom of the page and wants to naviage to a new location.  A hover effect increasing the font size to 120% indicates that these links are clickable. To ensure that the Tedd-Space brand is visible throughout, the name appears on the left of the footer and clicking on this will always direct the user back to the home page.
 
@@ -211,17 +211,79 @@ ___
 
 * Once the form has been submitted successfully, feedback will given to the user by directing them to a thankyou page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
 
+<br>
 
+## **SKELETON**
 
-While navigating the site, content hinting will lead users from one section to the next, encouraging them to scroll.  There will be progressive disclosure with content revealed gradually.  A first time user will start by learning about the goals and ethos of the garden, then the benefits associated with a well being garden, then the additional opportunities to engage with the community through classes and activities.  Finally with all of this information presented to the user, they will hopefully want to visit and seek out the address/ opening hours.
-
-Clicking on the volunteer link will jump users to a new page with identical header and footer sections for consistency of user experience.  
-
-To ensure consistency of scenario, make navigation intuitive and align with user expectation, all links will have an effect applied on hovering so the user knows these are clickable. Colour palettes, spacing and typography will remain consistent throughout to give the user a sense of familiarity wherever they navigate to on the site.  Icons will be used alongside informational headings to hint at content.
-
-Links to any external sites will open in a new tab.
+___
 
 <br>
+
+### **Wireframes**
+
+<br>
+
+Wireframes for desktop, tablet and mobile:
+
+* Index Wireframe
+* Wellbeing Wireframe
+* Community Wireframe
+* Visit Wireframe
+* Volunteer Wireframe
+* Thankyou Wireframe
+
+<br>
+
+## **SURFACE**
+
+___
+
+<br>
+
+## **Colour Palette**
+
+<br>
+
+The website aims to use a calming colour palette to align with the Tedd-Space ethos of promoting calm minds.  The user should get the same sense of calmness and wellbeing when navigating the site as they would when visiting the garden.  Green is known to be a soothing colour and also gives the user a sense of being surrounded by nature.  The palette is limited to keep the site looking clean, simple and spacious.  Colours from the [close up leaf](docs/leaf-hero-ref.webp) hero image were extracted using the generator tool on the [coolors](https://coolors.co/) website.  This is the basis for the dark green text that is used consistently throughout the site and the occassional lighter green that is used to give user feedback when hovering over buttons.  The white smoke colour is used against a pure white backdrop to structure the website in a simple clean way, highlighting columns,text boxes and the footer. 
+
+<br>
+
+![Tedd-Space colour palette](docs/tedd-space-colour-palette-resize.png)
+
+
+<br>
+
+## **Contrast**
+
+<br>
+
+The simple colour palette means that there is good contrast between the background and text.  I used the WebAim [contrast checker](https://webaim.org/resources/contrastchecker/) to investigate contrasts.
+
+<br>
+
+![Tedd-Space colour palette contrast check](docs/tedd-space-contrast-check.png)
+
+<br>
+
+To ensure that the contrast between the hero background image and hero text was optimal, I applied a linear gradient on the image as a CSS rule to make it darker and help the white text stand out more.
+
+<br>
+
+## **Typography**
+
+<br>
+
+Spacing and typography will remain consistent throughout the site to give the user a sense of familiarity wherever they navigate to another page.  Icons will be used alongside informational headings to hint at content.  The following fonts have been selected from Google Fonts:
+
+* Headings:  Montserrat.  This is a sans-serif font.
+* Body:  Source Sans Pro.  This is a sans-serif font.
+* Hero text and Summer Timetable:  Amatic SC.  This is a cursive font.
+
+Inspiration for the font combination came from this [article](https://www.thedenizenco.com/journal/clean-minimal-font-pairings) about clean minimal font pairings. 
+
+<br>
+
+## **Images**
 
 # **Technologies Used**
 

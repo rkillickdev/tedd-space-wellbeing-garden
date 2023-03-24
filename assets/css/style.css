@@ -181,7 +181,7 @@ h2 i {
     .hero-text {
         font-size: 300%;
     }
-    /* #nav-container {
+    #nav-container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -208,7 +208,7 @@ h2 i {
     }
     #hamburger:checked ~ ul.top-menu {
         margin-top: 1rem;
-    } */
+    }
 }
 
 /* HERO IMAGE SECTION */

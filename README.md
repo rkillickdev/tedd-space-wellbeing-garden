@@ -147,19 +147,156 @@ ___
 
 <br>
 
-The header will display the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the site name will take you back to the top of the page.  Clicking on the navigation links will jump you to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.
+### **Common Features**
+
+<br>
+
+* The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo wil always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  
+
+* To ensure a good user experience in all situations, a media query is used to prevent the naviagtion bar looking squashed and cluttered on mobile devices with smaller screen sizes.  The navigation bar is replaced with a burger menu toggler at 950px and under.  For screens at 450px and under, a further media query is used to reduce the overall size of these header items to give everything space.  When the burger icon is selected, the header expands vertically with the navigation menu displayed. I have chosen this method of using the burger icon as it follows convention and is therefore immediately recognisable to the user, providing them with an intuitive experience as they navigate the sight.  A recognisable cross icon is used to indicate to the user that clicking will close the menu.
+
+* The footer will feature at the bottom of each page, with social media links to the Tedd-Space Facebook, Twitter and Instagram pages opening in new browser tabs when clicked.  Font awesome icons are used as they are universally recognisable for the user without the need for text.  A hover effect which transforms the icon size to 110% and changes the colour to a lighter green indicates to the user that these links are clickable.  A secondary navigation menu is positioned in the centre of the footer, incase the user is ever at the bottom of the page and wants to naviage to a new location.  A hover effect increasing the font size to 120% indicates that these links are clickable. To ensure that the Tedd-Space brand is visible throughout, the name appears on the left of the footer and clicking on this will always direct the user back to the home page.
+
+<br>
+
+### **About Page**
+
+<br>
+
+* The aim of the owner is that the purpose of the site should be immediately evident to the user when they land on the home page.  This is achieved by using a hero image of a close up leaf that instantly indicates to the user that the site relates to nature and the dark green colour aims to achieve an emotional response of calmness.  The user is then provided with two core pieces of information as the hero text fades in, to make clear that Tedd-Space is a wellbeing garden and it is located in the TW11 postcode.
+
+* The user is then provided with a concise welcome section where they can understand exactly what Tedd-Space is and what it aims to achieve. This is accompanied by an image which hopes to envoke a positive emotional response ( "this is somewhere I would like to spend time" ) and draws them to learning more about the wellbeing garden.
+
+* The core goals of Tedd-Space are laid out next, to demonstrate to the user 3 different ways the garden could benefit them.  Icons are used above each goal as hints, so the user understands the core aims of Tedd-Space before they have even read the etxt.  Under each goal, an explore button makes it intuitive for the user to learn more about each topic without even having to use the top navigation menu.  This is an example of using progressive disclosure, to engage the user and gradually present them with more content as they navigate the website.  For consistency of user experience, the explore buttons feature the same transform effect on hovering as experienced in the header and footer.
+
+<br>
+
+### **Wellbeing Page**
+
+<br>
+
+* This page provides the user with further information about how the Tedd-Space garden can improve wellbeing.  To ensure consitency of user experience, the page layout is similar in format to the about page. There is a concise intro, a calm image to convey the theme of wellbeing and then 3 design features to look out for.
+
+<br>
+
+### **Community Page**
+
+<br>
+
+* This provides the user with information about the community aspect of Tedd-Space.  The timetable of activities is prominent and features the same background leaf image used on the landing page.  The follow us button makes it easy for the user to find social media links, and there is a link to direct them back  to the timetable if they have scrolled past this but then want to find out more.  
+
+* The slide show provides the user with an opportunity to interact with the site and build an understanding of how the garden could be used.
+
+* Descriptions of 3 different types of community engagement are detailed in the familiar 3 column layout (collapses to single column on mobile devices below 950px).  Font awesome icons ensure that there is continuity and familiarity between pages.
+
+<br>
+
+### **Visit Page**
+
+<br>
+
+* Now that the user has been presented with information about the garden and it's benefits, it is important to provide them with the information needed to visit.  An interactive embedded Google Map shows location and if zoomed out, can give the user context about surrounding areas.  Also core information with full address and opening hours, makes the opportunity to use the garden as simple as possible.  The site owner hopes that this will result in an increase in the user base.
+
+<br>
+
+### **Volunteer Page**
+
+<br>
+
+* Users are presented with some information about the volunteering opportunities.  They will also have the opportunity to interact with a form by submitting their name, email address, using a drop down menu to signal their availability and a text field for any further details.  A send button with familiar consistent hover effect allows users to submit this information.  Feedback will be give to the user throughout the form interaction, with each input field highlighted when in focus and tooltip alerts if a required field has not been filled in correctly.
+
+<br>
+
+### **Thankyou Page**
+
+* Once the form has been submitted successfully, feedback will given to the user by directing them to a thankyou page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
+
+
 
 While navigating the site, content hinting will lead users from one section to the next, encouraging them to scroll.  There will be progressive disclosure with content revealed gradually.  A first time user will start by learning about the goals and ethos of the garden, then the benefits associated with a well being garden, then the additional opportunities to engage with the community through classes and activities.  Finally with all of this information presented to the user, they will hopefully want to visit and seek out the address/ opening hours.
 
-Clicking on the volunteer link will jump users to a new page with identical header and footer sections for consistency of user experience.  Here they will be presented some information about the volunteering opportunities.  The user will also have the opportunity to interact with a form by submitting their name, email address, using checkboxes to provide useful information and a text box for any further details.  A send button will allow users to submit this information.  
-
-The footer will also remain fixed at the bottom of the page, displaying social media icons so the user can intuitively link to the garden’s facebook, twitter and instagram pages.
+Clicking on the volunteer link will jump users to a new page with identical header and footer sections for consistency of user experience.  
 
 To ensure consistency of scenario, make navigation intuitive and align with user expectation, all links will have an effect applied on hovering so the user knows these are clickable. Colour palettes, spacing and typography will remain consistent throughout to give the user a sense of familiarity wherever they navigate to on the site.  Icons will be used alongside informational headings to hint at content.
 
 Links to any external sites will open in a new tab.
 
 <br>
+
+# **Technologies Used**
+
+<br>
+
+## **Languages Used**
+
+<br>
+
+HTML and CSS were used to create the website.
+
+<br>
+
+## **Frameworks, Libraries & Programs Used**
+
+<br>
+
+* Git -  Version control.
+* GitHub - All files for the website stored and saved in a repository.
+* GitHub Pages - Used to deploy the final version of the website.
+* Balsamiq - Used to create wireframes.
+* Font Awesome - Used for all icons throughout the website.
+* Google Fonts - Used to import required fonts for the website via the css style page.
+* Google Developer Tools - Used throughout build of website for debugging and trialing new features/ styling.
+* Google Lighthouse - Used at testing stage to show statistics for performance, accessibility,  best practices and SEO.
+* TinyPNG - For compression of image files to improve website performance.
+* Birme - For resizing and reformatting images to make them suitable for use on the website.
+* Am I Responsive? - For displaying images of how the website looks across a range of devices.
+
+<br>
+
+# **Deployment & Local Development**
+
+<br> 
+
+## **Deployment**
+
+<br>
+
+The live website has been deployed using GitHub Pages, following the steps below:
+
+1. Log in (or sign up) to GitHub.
+2. Click on the required repository, in this case: rkillickdev/tedd-space-wellbeing-garden
+3. Go to the "Settings" menu.
+4. Select the "Pages" tab in the left hand menu - this will jump you to a section called "GitHub Pages".
+5. Under the Build and deployment section, select "main" from the select branch menu.  Select "root" from the dropdown select folder menu.
+6. Click save.  The URL for your live site which has been deployed on GitHub pages is shown at the top of the GitHub pages section.  This sometimes does not display immediately or may require a browser refresh.
+
+<br>
+
+## **Local Development**
+
+<br>
+
+### **How to fork:**
+
+<br>
+
+1. Login to GitHub.
+2. Find the required repository, in this case: rkillickdev/tedd-space-wellbeing-garden
+3. Click on the "fork" button at the top right of the page.
+
+<br>
+
+### **How to clone**
+
+<br>
+
+
+
+
+
+
+
+
 
 # **Credits**
 

@@ -373,6 +373,8 @@ The live website has been deployed using GitHub Pages, following the steps below
 * [Tutorial for creating hamburger nav menu for mobile devices](https://www.youtube.com/watch?v=SIzi9z8mrTk)
 * [How to style placeholder text](https://www.samanthaming.com/tidbits/57-styling-css-placeholder/)
 * [Emeddding google maps on visit page](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
+* [Adding a favicon to the browser tab](https://www.w3schools.com/html/html_favicon.asp)
+
 ## **Content**
 
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)

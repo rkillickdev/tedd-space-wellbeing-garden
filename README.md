@@ -374,7 +374,7 @@ The live website has been deployed using GitHub Pages, following the steps below
 * [How to style placeholder text](https://www.samanthaming.com/tidbits/57-styling-css-placeholder/)
 * [Emeddding google maps on visit page](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
 * [Adding a favicon to the browser tab](https://www.w3schools.com/html/html_favicon.asp)
-
+* [Meta Tags IO for improving site visual appearance on social media](https://metatags.io/)
 ## **Content**
 
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)

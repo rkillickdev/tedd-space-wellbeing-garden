@@ -178,36 +178,15 @@ h2 i {
 /* Media queries for mobile devices from 450px and down */
 
 @media only screen and (max-width: 450px) {
-    .hero-text {
-        font-size: 300%;
+    .navbar img {
+        height: 58px;
+        margin-right: 8px;
     }
-    #nav-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .navbar-logo {
+        font-size: 150%;
     }
-    #logo {
-        margin-left: 0;
-        align-items: center;
-    }
-
-    #logo img {
-        margin-top: 6px;
-        margin-bottom: 0;       
-    }
-
-    #logo h1 {
-        margin-bottom: 0;
-    }
-    
-    #hamnav .toggle {
-        position:unset;
-        margin: 0;
-        line-height: normal;
-    }
-    #hamburger:checked ~ ul.top-menu {
-        margin-top: 1rem;
+    #hamnav label {
+        font-size: 3rem;    
     }
 }
 
@@ -271,14 +250,14 @@ h2 i {
     }
 }
 
-/* Media queries for mobile devices from 450px and down reduces hero text size and increases margin to allow for larger header */
+/* Media queries for mobile devices from 450px and down reduces hero text size and reduces margin to account for smaller header */
 
 @media only screen and (max-width: 450px) {
     .hero-text {
         font-size: 300%;
     }
     #hero-outer {
-        margin-top: 177.3px;
+        margin-top: 97.59px;
     }
 }
 
@@ -622,11 +601,11 @@ textarea:focus {
     }
 }
 
-/* For devices 450px and under top row margin increases to allow for expanded header */
+/* For devices 450px and under top row margin decreases to account for smaller header */
 
 @media only screen and (max-width: 450px) {
     .top-row {
-        margin-top: 177.3px;
+        margin-top: 97.59px;
     }
 }
 

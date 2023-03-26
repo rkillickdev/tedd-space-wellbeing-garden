@@ -1,0 +1,32 @@
+/* Media queries for mobile devices from 450px and down to move burger menu underneath and central to the Tedd-Space title and logo.  Replaced with neater solution to shrink down title, logo and burger icon to make it fit on one line */
+ 
+@media only screen and (max-width: 450px) {
+    #nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    #logo img {
+        margin-top: 6px;
+        margin-bottom: 0;       
+    }
+
+    #logo h1 {
+        margin-bottom: 0;
+    }
+    
+    #hamnav .toggle {
+        position:unset;
+        margin: 0;
+        line-height: normal;
+    }
+    #hamburger:checked ~ ul.top-menu {
+        margin-top: 1rem;
+    }
+}

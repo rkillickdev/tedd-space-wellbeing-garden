@@ -353,6 +353,8 @@ h2 i {
 .google-map {
     padding-bottom: 50%;
     position: relative;
+    margin-top: 148.8px;
+    padding-top: 2rem;
 }
 
 .google-map iframe {
@@ -361,6 +363,14 @@ h2 i {
     left: 0;
     top: 0;
     position: absolute;
+}
+
+/* For devices 450px and under google-map class margin decreases to account for smaller header */
+
+@media only screen and (max-width: 450px) {
+    .google-map {
+        margin-top: 129.59px;
+    }
 }
 
 /* Contact and opening hours */

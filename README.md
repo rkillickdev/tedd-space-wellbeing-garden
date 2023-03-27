@@ -255,12 +255,11 @@ ___
 
 Wireframes for desktop, tablet and mobile:
 
-* Index Wireframe
-* Wellbeing Wireframe
-* Community Wireframe
-* Visit Wireframe
-* Volunteer Wireframe
-* Thankyou Wireframe
+* [Index Wireframe](docs/wireframes/index.png)
+* [Wellbeing Wireframe](docs/wireframes/Wellbeing.png)
+* [Community Wireframe](docs/wireframes/Community.png)
+* [Visit Wireframe](docs/wireframes/Visit.png)
+* [Volunteer Wireframe](docs/wireframes/Volunteer.png)
 
 <br>
 
@@ -411,16 +410,23 @@ The live website has been deployed using GitHub Pages, following the steps below
 
 I used the [W3C](https://validator.w3.org/) Markup Validation Service to validate the HTML on all pages of the website.
 
-* [Index.html](): Passed
-* [wellbeing.html](): Passed
-* [community.html](): Passed
-* [visit.html](): Passed
-* [volunteer.html](): Passed
-* [thankyou.html](): Passed
+| Page | Result |
+| ---- | -------|
+| [Index.html](docs/testing/w3c/w3c-html-validated-index.png) | Passed |
+| [wellbeing.html](docs/testing/w3c/w3c-html-validated-wellbeing.png) | Passed |
+| [community.html](docs/testing/w3c/w3c-html-validated-community.png) | Passed |
+| [visit.html](docs/testing/w3c/w3c-html-validated-visit.png) | Passed |
+| [volunteer.html](docs/testing/w3c/w3c-html-validated-volunteer.png) | Passed |
+| [thankyou.html](docs/testing/w3c/w3c-html-validated-thankyou.png) | Passed |
 
 I used the [W3C jigsaw](https://jigsaw.w3.org/css-validator/) CSS Validation Service to validate my CSS stylesheet.
 
-* [style.css](): Passed
+| Page | Result |
+| ---- | -------|
+| [style.css](docs/testing/w3c/w3c-jigsaw-css-validated.png) | Passed |
+
+<br>
+
 ### **Lighthouse**
 
 I used Lighthouse within Google Chrome developer tools as a way of testing performance, accessibility, best practices and SEO across all pages of the website.  With a few tweaks I have achieved the following scores:
@@ -430,6 +436,17 @@ I used Lighthouse within Google Chrome developer tools as a way of testing perfo
 
 
 ### **WAVE**
+
+I have used the [WAVE](https://wave.webaim.org/) tool to evaluate the web accessibility of each page on the site:
+
+| Page | Result |
+| ---- | -------|
+| [Index accessibility evaluation](docs/testing/accessibility/wave-accessibility-index.png) | Passed |
+| [Wellbeing accessibility evaluation](docs/testing/accessibility/wave-accessibility-wellbeing.png) | Passed |
+| [Community accessibility evaluation](docs/testing/accessibility/wave-accessibility-community.png) | Passed |
+| [Visit accessibility evaluation](docs/testing/accessibility/wave-accessibility-visit.png) | Passed |
+| [Volunteer accessibility evaluation](docs/testing/accessibility/wave-accessibility-volunteer.png) | Passed |
+| [Thankyou accessibility evaluation](docs/testing/accessibility/wave-accessibility-thankyou.png) | Passed |
 
 ## **Manual Testing**
 

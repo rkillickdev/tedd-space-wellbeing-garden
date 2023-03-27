@@ -70,7 +70,7 @@ ___
 
 <br>
 
-* As a first time user, I want to know more about how the garden was created and it’s vision for the community.
+* As a first time user, I want to know more about the garden and it’s vision for the community.
 * As a first time visitor, I want to know how the garden could have a positive impact on my wellbeing, so I can decide whether I could use it.
 * As a first time visitor, I want to view address details and opening hours, so that I know where to visit and when.
 * As a first time visitor, I want to be able to find out more about volunteering, so I can decide whether this could be for me.
@@ -408,6 +408,48 @@ I used Lighthouse within Google Chrome developer tools as a way of testing perfo
 ## **Manual Testing**
 
 ### **Testing User Stories**
+
+<br>
+
+| Goals | How are goals achieved? |
+| --- | --- | 
+| Client |    
+|        |                                                                                                                                
+| I want to boost the profile of the garden by creating an online presence. | Creation of the website has provided an online presence for Tedd-Space and given a platform to promote the wellbeing garden. |
+| I want to increase accessibility of the garden by promoting the location and opening hours. | A "visit" link in the top menu provides one click easy access to all the information a user needs to visit the garden. |
+| I want to encourage positive mental health in the community by promoting the benefits of<br> the garden for emotional wellbeing. | The 'Minds Matter' information on the home page introduces the user to the link between spending time surrounded by nature<br> and better mental health. The ability to learn more about this topic is made easy and intuitive for the user by including an 'explore'<br> button that takes them directly to the Wellbeing page. |  
+| I want to make users aware of how the garden can help them connect with the community<br> through a range of organised events/ classes and activities. | The 'Community' text box on the home page gives the user an introduction how they can use Tedd-Space to connect with their<br> community.  The ability to learn more about this topic is made easy and intuitive for the user by including an 'explore' button that<br> takes them directly to the Community page. |    
+| I want to increase the number of active volunteers. | The "Belong" text box on the home page helps introduce the user to the concept of volunteering.  The ability to learn more<br> about this topic is made easy and intuitive for the user by including an 'explore' button that takes them directly to the Volunteer<br> page.  A form is easily accessible and easy to use if the user chooses to make contatc about offereing their time as a volunteer. |                            
+| I want to make sure the site can be viwed on a range of different sized devices. | Media queries have been used to ensure that site content looks appealing and is intuitive to use on dektop, tablet and smaller<br> mobile devices. |
+|        |                                                                    
+| First Time Visitors |                                                         
+|        |                                                                  
+| I want to know more about the garden and it’s vision for the community. | The "Take a breath" text box on the home page gives a brief introduction where the user can understand the core ethos of the wellbeing<br> garden.  The 3 concepts of "Minds Matter", "Community" and "Belong" expand on these ideas and offers the user a chance to explore more. |   
+| I want to know how the garden could have a positive impact on my wellbeing. | Users can either be guided to the wellbeing page via an "explore" button having read the home page content, or get there directly from the<br> navigation menu. | 
+ I want to view address details and opening hours. | Details required to visit Tedd-Space are accessed easily via the visit menu link. As this is a core goal for the client, the link exists at the<br> highest level of the site information architecture structure.  One click and the user can gather the information they need to visit. |                             
+| I want to be able to find out more about volunteering. |  The benefits of volunteering are introduced to the user in the "Belong" text box on the homepage, encouraging them to explore further<br> and navigate to the volunteer page.  This can also be accessed directly via the navigation menu if the user has come to the site with this<br> goal as their sole focus. |                      
+| I want to learn more about the activities that run in partnership with the garden. | The "Community" text box on the home page encourages the user to explore the community page.  Once they arrive, they can intuitively get a<br> sense of the activities on offer, either by interacting with the image slideshow, reading the informational text boxes or using the timetable.<br>  Users are also directed to social media channels to get more detailed and live information. |
+|       |                                                         
+| Return Visitors |                                                             
+|       |                                                                      
+| I want to make contact to offer my time as a volunteer. | Return users can head straight to the volunteer page via the navigation menu and use the form to submit their details. |                    
+| I want to learn **more** about how horticulture and being surrounded by nature can improve our mental health. | Return users can head straight to the Wellbeing page to do this.  Future implementations such as a blog or specially curated articles for the<br> site will make this goal more achievable, as they will provide greater depth of information avaialble to return visitors. |
+|       | 
+| Repeat Visitors |                                                            
+|       |                                                                      
+| I want to be kept up to date with Tedd-Space news, updates and future events. | The community page does satisfy this goal in a limited way, but future implementations such as integrating live social media feeds to the site<br> would offer greater value to repeat vistitors, as they could use the site for the most accurate and up to date information. | 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+
 
 ### **Full Testing**
 

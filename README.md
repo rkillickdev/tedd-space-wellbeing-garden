@@ -498,7 +498,7 @@ The following browsers were used to test on each device:
 | "Follow us" link | Size of button expands and changes to a lighter green when link hovered over | Hover over explore link | "Follow us" button expands in size and changes to a lighter green | Pass |
 | "Follow us" link | User redirected to social media icons in footer when clicked | Click "Follow us" link | Redirected to social media icons in footer | Pass |
 | Image Slideshow | New image slides into view when each round anchor link is clicked | Click all 3 anchor links | New image displayed as each anchor link clicked | Pass |
-| Timetable link | Text size expands when link hovered over | Hover over timetable link | Timetable link text size expands | Pass |
+| Timetable link | Text underlined when link hovered over | Hover over timetable link | Timetable link is underlined | Pass |
 | Timetable link | User redirected to timetable when clicked | Click on timetable lin| Redirected to timetable | Pass |
 |        |
 | Visit Page |

@@ -287,9 +287,11 @@ Inspiration for the font combination came from this [article](https://www.theden
 
 <br>
 
-## **Images**
+## **Imagery**
 
 <br>
+
+Imagery throughout aims to tie in with the goals of the site, for example images of the garden should provide a feeling of calm. Images focusing on the social commmunity aspect should be friendly and welcoming.  The logo used in the header has been chosen for it's simplicity yet it is still able to covey a message to the user - "this is a site that focuses on improving your wellbeing".
 
 ## **Accessibility**
 
@@ -396,12 +398,15 @@ The live website has been deployed using GitHub Pages, following the steps below
 * [Emeddding google maps on visit page](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
 * [Adding a favicon to the browser tab](https://www.w3schools.com/html/html_favicon.asp)
 * [Meta Tags IO for improving site visual appearance on social media](https://metatags.io/)
+
 ## **Content**
 
+* Text content for site referenced and modified from [RHS Your Wellbeing Garden book](https://www.amazon.co.uk/RHS-Your-Wellbeing-Garden-Practice/dp/0241386721)
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)
 
 ## **Media**
 
+* [Royalty free images used throughout the site from Pexels](https://www.pexels.com/)
 * [Free Logo Maker Website used for Tedd-Space logo](https://logomakr.com/app)
 
 ## **Acknowledgements**

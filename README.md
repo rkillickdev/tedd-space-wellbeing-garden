@@ -375,6 +375,30 @@ The live website has been deployed using GitHub Pages, following the steps below
 
 <br>
 
+# **Testing**
+
+<br>
+
+## **Automated Testing**
+
+### **W3c Validator**
+
+### **Lighthouse**
+
+### **WAVE**
+
+## **Manual Testing**
+
+### **Testing User Stories**
+
+### **Full Testing**
+
+## **Bugs**
+
+### **Known Bugs**
+### **Solved Bugs**
+
+
 
 
 

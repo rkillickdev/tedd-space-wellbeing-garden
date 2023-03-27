@@ -397,6 +397,12 @@ I used the [W3C jigsaw](https://jigsaw.w3.org/css-validator/) CSS Validation Ser
 * [style.css](): Passed
 ### **Lighthouse**
 
+I used Lighthouse within Google Chrome developer tools as a way of testing performance, accessibility, best practices and SEO across all pages of the website.  With a few tweaks I have achieved the following scores:
+
+### **Desktop Results**
+
+
+
 ### **WAVE**
 
 ## **Manual Testing**

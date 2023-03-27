@@ -2,6 +2,10 @@
 The Tedd-Space website has been designed to provide visitors with the opportunity to gather information about a fictional community wellbeing garden based in Teddington, TW11.  The goal of the site owner is to create an online presence to give greater exposure to the garden and increase the user base within the TW11 community. There is a particular emphasis on the positive impact of horticulture and nature on our wellbeing and mental health.
 
 Site users can learn about the ethos and vision of the garden, gain better understanding of the links between nature and wellbeing, gather information about how the garden engages the local community, and easily find the details they need to visit.   They can also learn about volunteering opportunities and register their interest in getting involved.
+
+<br>
+
+![Tedd-Space Index Page represented on different devices](docs/snapshots/tedd-space-index-am-i-responsive.png)
 ___
 
 # **CONTENTS**
@@ -153,11 +157,19 @@ ___
 
 * A favicon is displayed in each browser tab.  The image is a squared off version of the logo used in the header. It is a 16px X 16px ico file generated on the [Favicon.ico & App Icon Generator](https://www.favicon-generator.org/) 
 
+![Tedd-Space Favicon in browser tab](docs/snapshots/tedd-space-favicon-snapshot.png)
+
 * The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo wil always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  The current page link in the menu shows as bold to always inform the user where they are within the site.   
+
+![Tedd-Space nav menu above 950px](docs/snapshots/tedd-space-nav-menu-above-950px.png)
 
 * To ensure a good user experience in all situations, a media query is used to prevent the naviagtion bar looking squashed and cluttered on mobile devices with smaller screen sizes.  The navigation bar is replaced with a burger menu toggler at 950px and under.  For screens at 450px and under, a further media query is used to reduce the overall size of these header items to give everything space.  When the burger icon is selected, the header expands vertically with the navigation menu displayed. I have chosen this method of using the burger icon as it follows convention and is immediately recognisable.  It therefore aligns with user expectation, providing them with an intuitive experience as they navigate the sight.  A recognisable cross icon is used to indicate to the user that clicking will close the menu.
 
+![Tedd-Space nav menu below 950px](docs/snapshots/tedd-space-nav-menu-below-950px.png)
+
 * The footer will feature at the bottom of each page, with social media links to the Tedd-Space Facebook, Twitter and Instagram pages opening in new browser tabs when clicked.  Font awesome icons are used as they are universally recognisable for the user without the need for text.  A hover effect which transforms the icon size to 110% and changes the colour to a lighter green indicates to the user that these links are clickable.  A secondary navigation menu is positioned in the centre of the footer, incase the user is ever at the bottom of the page and wants to naviage to a new location.  A hover effect increasing the font size to 120% indicates that these links are clickable. To ensure that the Tedd-Space brand is visible throughout, the name appears on the left of the footer and clicking on this will always direct the user back to the home page.
+
+![Tedd-Space Footer represented on different devices](docs/snapshots/tedd-space-footer-am-i-responsive.png)
 
 <br>
 
@@ -167,11 +179,15 @@ ___
 
 * The aim of the owner is that the purpose of the site should be immediately evident to the user when they land on the home page.  This is achieved by using a hero image of a close up leaf that instantly indicates to the user that the site relates to nature and the dark green colour aims to achieve an emotional response of calmness.  The user is then provided with two core pieces of information as the hero text fades in, to make clear that Tedd-Space is a wellbeing garden and it is located in the TW11 postcode.
 
+![Tedd-Space hero image represented on different devices](docs/snapshots/tedd-space-index-am-i-responsive.png)
+
 * The user is then provided with a concise welcome section where they can understand exactly what Tedd-Space is and what it aims to achieve. This is accompanied by an image which hopes to envoke a positive emotional response ( "this is somewhere I would like to spend time" ) and draws them to learning more about the wellbeing garden.
 
 * The core goals of Tedd-Space are laid out next, to demonstrate to the user 3 different ways the garden could benefit them.  Icons are used above each goal as hints, so the user understands the core aims of Tedd-Space before they have even read the etxt.  Under each goal, an explore button makes it intuitive for the user to learn more about each topic without even having to use the top navigation menu.  This is an example of using progressive disclosure, to engage the user and gradually present them with more content as they navigate the website.  For consistency of user experience, the explore buttons feature the same transform effect on hovering as experienced in the header and footer.
 
 <br>
+
+![Tedd-Space About Page represented on different devices](docs/snapshots/tedd-space-about-am-i-responsive.png)
 
 ### **Wellbeing Page**
 
@@ -180,6 +196,8 @@ ___
 * This page provides the user with further information about how the Tedd-Space garden can improve wellbeing.  To ensure consitency of user experience, the page layout is similar in format to the about page. There is a concise intro, a calm image to convey the theme of wellbeing and then 3 design features to look out for.
 
 <br>
+
+![Tedd-Space Wellbeing Page represented on different devices](docs/snapshots/tedd-space-wellbeing-am-i-responsive.png)
 
 ### **Community Page**
 
@@ -193,6 +211,8 @@ ___
 
 <br>
 
+![Tedd-Space Community Page represented on different devices](docs/snapshots/tedd-space-community-am-i-responsive.png)
+
 ### **Visit Page**
 
 <br>
@@ -200,6 +220,8 @@ ___
 * Now that the user has been presented with information about the garden and it's benefits, it is important to provide them with the information needed to visit.  An interactive embedded Google Map shows location and if zoomed out, can give the user context about surrounding areas.  Also core information with full address and opening hours, makes the opportunity to use the garden as simple as possible.  The site owner hopes that this will result in an increase in the user base.
 
 <br>
+
+![Tedd-Space Visit Page represented on different devices](docs/snapshots/tedd-space-visit-am-i-responsive.png)
 
 ### **Volunteer Page**
 
@@ -209,11 +231,15 @@ ___
 
 <br>
 
+![Tedd-Space Volunteer Page represented on different devices](docs/snapshots/tedd-space-volunteer-am-i-responsive.png)
+
 ### **Thankyou Page**
 
 * Once the form has been submitted successfully, feedback will given to the user by directing them to a thankyou page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
 
 <br>
+
+![Tedd-Space Thnakyou Page represented on different devices](docs/snapshots/tedd-space-thankyou-am-i-responsive.png)
 
 
 

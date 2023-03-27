@@ -135,9 +135,9 @@ ___
 
 <br>
 
-* Addition of a news, updates and upcoming events section.
+* Addition of a news, updates and upcoming events section.  For now this information can be accessed externally by clicking social media links, but it would nice to eventually integrate a live feed into the site.
 
-* Addition of a blog page with varied topics covered.
+* Addition of a blog page with varied topics covered.  This would give the user the chance to find out more detailed information about the core goals of the site owner, for example in depth features and articles about how gardens and horticulture can improve our physical and mental wellbeing.  This would be a neater solution than simply adding links for articles on external sites.
 
 <br>
 
@@ -150,6 +150,8 @@ ___
 ### **Common Features**
 
 <br>
+
+* A favicon is displayed in each browser tab.  The image is a squared off version of the logo used in the header. It is a 16px X 16px ico file generated on the [Favicon.ico & App Icon Generator](https://www.favicon-generator.org/) 
 
 * The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo wil always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  The current page link in the menu shows as bold to always inform the user where they are within the site.   
 
@@ -212,6 +214,8 @@ ___
 * Once the form has been submitted successfully, feedback will given to the user by directing them to a thankyou page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
 
 <br>
+
+
 
 ## **SKELETON**
 
@@ -284,6 +288,23 @@ Inspiration for the font combination came from this [article](https://www.theden
 <br>
 
 ## **Images**
+
+<br>
+
+## **Accessibility**
+
+___
+
+<br>
+
+To enusure that the website is as accessible as possible for all users and compatible with screen readers, I have done the following:
+
+* Semantic markup has been used to structure the HTML code.
+* Check that the colour contrast ratio across the website meets acceptable standards.
+* Descriptive alt attributes have been given to all images.
+* Aria labels have been used for interactive elements where no accessible name is provided. For example the hamburger menu icon I have used for smaller screen sizes or the social media links in the footer.
+* The aria hidden attribute has been added to icons that are purely decorative. 
+
 
 # **Technologies Used**
 

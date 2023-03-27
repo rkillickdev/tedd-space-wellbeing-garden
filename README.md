@@ -439,19 +439,86 @@ I used Lighthouse within Google Chrome developer tools as a way of testing perfo
 |       |                                                                      
 | I want to be kept up to date with Tedd-Space news, updates and future events. | The community page does satisfy this goal in a limited way, but future implementations such as integrating live social media feeds to the site would offer greater value to repeat vistitors, as they could use the site for the most accurate and up to date information. | 
 
-
- 
-
-
- 
- 
-
-
-
-
-
-
 ### **Full Testing**
+
+Full testing has been carried out on the following devices:
+
+* Macbook Pro 2021 14 inch M1 Pro
+* iPhone 11
+* iPad
+
+The following browsers were used to test on each device:
+
+* Google Chrome
+* Firefox
+* Safari
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| ------- | ---------------- | ----------------- | ------ | --------- |
+| Navbar  |
+|         |
+| Tedd-Space logo and title | User redirected to About page when clicked | Click logo and title | Redirected to About page | Pass |
+| Menu links | Text size expands when link hovered over | Hover over each menu link | Text size expands on hover | Pass |
+| About link | User redirected to About page when clicked | Click About link | Redirected to About page | Pass |
+| Wellbeing link | User redirected to Wellbeing page when clicked | Click Wellbeing link | Redirected to Wellbeing Page | Pass |
+| Community link | User redirected to Community page when clicked | Click Community link | Redirected to Community Page | Pass |
+| Visit link | User redirected to Visit page when clicked | Click Visit link | Redirected to Visit Page | Pass |
+| Volunteer link | User redirected to Volunteer page when clicked | Click Volunteer link | Redirected to Volunteer Page | Pass |
+| Active page | Active page in navigation menu appears in bold font | Click each link in menu | Active page is displayed bold in navigation menu | Pass |
+| Hamburger menu toggle for screens at 950px and under | Navigation menu displayed under header when clicked | Click hamburger icon | Navigation menu displayed under header | Pass | 
+| Cross menu toggle for screens at 950px and under | Navigation menu hidden when cross icon clicked | Click cross icon | Navigation menu hidden | Pass |
+|         |
+| Footer  |
+|         |
+| Tedd-Space title | User redirected to About page when clicked | Click title | Redirected to About page | Pass |
+| Menu links | Text size expands when link hovered over | Hover over each menu link | Text size expands on hover | Pass |
+| About link | User redirected to About page when clicked | Click About link | Redirected to About page | Pass |
+| Wellbeing link | User redirected to Wellbeing page when clicked | Click Wellbeing link | Redirected to Wellbeing Page | Pass |
+| Community link | User redirected to Community page when clicked | Click Community link | Redirected to Community Page | Pass |
+| Visit link | User redirected to Visit page when clicked | Click Visit link | Redirected to Visit Page | Pass |
+| Volunteer link | User redirected to Volunteer page when clicked | Click Volunteer link | Redirected to Volunteer Page | Pass |
+| Social media links | Icon size expands and changes to a lighter green when link hovered over | Hover over each social media link | Social media icon expands in size and changes to a lighter green | Pass |
+| Facebook link | User redirected to Tedd-Space Facebook page in new browser tab | Click Facebook icon | Redirected to Tedd-Space Facebook page in new browser tab | Pass |
+| Twitter link | User redirected to Tedd-Space Twitter page in new browser tab | Click Twitter icon | Redirected to Tedd-Space Twitter page in new browser tab | Pass |
+| Instagram link | User redirected to Tedd-Space Instagram page in new browser tab | Click Instagram icon | Redirected to Tedd-Space Instagram page in new browser tab | Pass |
+|         |
+| Hero Image |
+|         |
+| Hero text | Text fades in from 0 to 0.9 opacity | Refresh homepage | Hero text fades in | Pass |
+|         | 
+| About Page |
+|         |
+| "Explore" links | Size of button expands and changes to a lighter green when link hovered over | Hover over each explore link | Explore button expands in size and changes to a lighter green | Pass |
+| "Minds Matter" explore link | User redirected to Wellbeing page when clicked | Click explore link in "Minds Matter" text box | Redirected to Wellbeing page | Pass |
+| "Community" explore link | User redirected to Community page when clicked | Click explore link in "Community" text box | Redirected to Community page | Pass |
+| "Belong" explore link | User redirected to Volunteer page when clicked | Click explore link in "Belong" text box | Redirected to Volunteer page | Pass |
+|         |
+| Community Page |
+|         |
+| "Follow us" link | Size of button expands and changes to a lighter green when link hovered over | Hover over explore link | "Follow us" button expands in size and changes to a lighter green | Pass |
+| "Follow us" link | User redirected to social media icons in footer when clicked | Click "Follow us" link | Redirected to social media icons in footer | Pass |
+| Image Slideshow | New image slides into view when each round anchor link is clicked | Click all 3 anchor links | New image displayed as each anchor link clicked | Pass |
+| Timetable link | Text size expands when link hovered over | Hover over timetable link | Timetable link text size expands | Pass |
+| Timetable link | User redirected to timetable when clicked | Click on timetable lin| Redirected to timetable | Pass |
+|        |
+| Visit Page |
+|        |
+| Google Map | User can interact with map | Toggle zoom in and out on map | Map view zooms in and out | Pass | 
+|        |
+| Volunteer Page |
+|        |
+| Form inputs | Input field highlighted with border outline when in focus | click each input field | Input field highlighted with border outline | Pass |
+| Form inputs | Display alert and advice tip if user attempts to submit form without required fields filled in correctly | Attempt to submit form without required fields | Alert and tooltip guides user | Pass |
+| Form send button | Redirect user to thankyou page when form submitted successfully | Submit correctly completed form | Redirected to thankyou page | Pass |
+|       |
+| Thankyou Page |
+|       |
+| Thankyou text | Text fades in from 0 to 0.9 opacity | Refresh homepage | Hero text fades in | Pass |
+| "Keep exploring" link | Size of button expands and changes to a lighter green when link hovered over | Hover over "Keep exploring" link | Button expands in size and changes to a lighter green | Pass |
+| "Keep exploring" link | User redirected to About page when clicked | Click "Keep exploring" link | Redirected to About page | Pass |  
+
+
+
 
 ## **Bugs**
 

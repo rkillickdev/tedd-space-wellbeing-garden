@@ -383,6 +383,18 @@ The live website has been deployed using GitHub Pages, following the steps below
 
 ### **W3c Validator**
 
+I used the [W3C](https://validator.w3.org/) Markup Validation Service to validate the HTML on all pages of the website.
+
+* [Index.html](): Passed
+* [wellbeing.html](): Passed
+* [community.html](): Passed
+* [visit.html](): Passed
+* [volunteer.html](): Passed
+* [thankyou.html](): Passed
+
+I used the [W3C jigsaw](https://jigsaw.w3.org/css-validator/) CSS Validation Service to validate my CSS stylesheet.
+
+* [style.css](): Passed
 ### **Lighthouse**
 
 ### **WAVE**

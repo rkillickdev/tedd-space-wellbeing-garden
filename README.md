@@ -69,7 +69,7 @@ ___
 
 ### **Why build this site?**
 <br>
-The wellbeing garden was completed in April 2022. Market research carried out by Richmond Council within the local community has highlighted that many residents of TW11 do not know about the garden. So a core goal of the website will be to increase exposure in the hope of attracting a new diverse user base.  Research has highlighted the toll that the pandemic had on wellbeing and mental health.  So another core goal of the website will be to emphasise how the benefits of the garden can be two fold. Time spent outside engaging with nature along with the opportunity to reduce isolation by connecting with the community.
+The wellbeing garden was completed in April 2022. Market research carried out by Richmond Council within the local community has highlighted that many residents of TW11 do not know about the garden. So a core goal of the website will be to increase exposure in the hope of attracting a new diverse user base.  Research has also highlighted the toll that the pandemic had on wellbeing and mental health, so another core goal of the website will be to emphasise the benefits of spending time outside engaging with nature, along with the opportunity to reduce isolation by connecting with the community.
 
 <br>
 
@@ -91,8 +91,8 @@ ___
 * As the client, I want to increase accessibility of the garden by promoting the location and opening hours.
 * As the client, I want to encourage positive mental health in the community by promoting the benefits of the garden for emotional wellbeing.
 * As the client, I want to make users aware of how the garden can help them connect with the community through a range of organised events/ classes/ activities.
-* As the client, I want to increase the number of active volunteers
-* As the client, I want to make sure the site can be viwed on a range of different sized devices
+* As the client, I want to increase the number of active volunteers.
+* As the client, I want to make sure the site can be viewed on a range of different sized devices.
 
 <br>
 
@@ -165,9 +165,9 @@ ___
 
 <br>
 
-* Addition of a news, updates and upcoming events section.  For now this information can be accessed externally by clicking social media links, but it would nice to eventually integrate a live feed into the site.
+* Addition of a news, updates and upcoming events section.  For now this information can be accessed externally by clicking social media links, but it would be nice to eventually integrate a live feed into the site.
 
-* Addition of a blog page with varied topics covered.  This would give the user the chance to find out more detailed information about the core goals of the site owner, for example in depth features and articles about how gardens and horticulture can improve our physical and mental wellbeing.  This would be a neater solution than simply adding links for articles on external sites.
+* Addition of a blog page with varied topics covered.  This would give the user a chance to find out more detailed information about the core goals of the site owner, for example in depth features and articles about how gardens and horticulture can improve our physical and mental wellbeing.  This would be a neater solution than simply adding links for articles on external sites.
 
 * Time constraints have meant that I was not able to customise page error messages. However this would be a good future implementation to improve user experience, by providing a clear message to keep the user informed and direct them back to the safety of the site.
 
@@ -194,7 +194,7 @@ ___
 
 ![Tedd-Space mobile nav menu expanded](docs/snapshots/mobile-nav-expanded.png)
 
-* The footer will feature at the bottom of each page, with social media links to the Tedd-Space Facebook, Twitter and Instagram pages opening in new browser tabs when clicked.  Font awesome icons are used as they are universally recognisable for the user without the need for text.  A hover effect which transforms the icon size to 110% and changes the colour to a lighter green indicates to the user that these links are clickable.  A secondary navigation menu is positioned in the centre of the footer, incase the user is ever at the bottom of the page and wants to naviage to a new location.  A hover effect increasing the font size to 120% indicates that these links are clickable. To ensure that the Tedd-Space brand is visible throughout, the name appears on the left of the footer and clicking on this will always direct the user back to the home page.
+* The footer will feature at the bottom of each page, with social media links to the Tedd-Space Facebook, Twitter and Instagram pages opening in new browser tabs when clicked.  Font awesome icons are used as they are universally recognisable for the user without the need for text.  A hover effect which transforms the icon size to 110% and changes the colour to a lighter green indicates to the user that these links are clickable.  A secondary navigation menu is positioned in the centre of the footer, in case the user is ever at the bottom of the page and wants to naviage to a new location.  A hover effect increasing the font size to 120% indicates that these links are clickable. To ensure that the Tedd-Space brand is visible throughout, the name appears on the left of the footer and clicking on this will always direct the user back to the home page.
 
 ![Tedd-Space Footer represented on different devices](docs/snapshots/tedd-space-footer-am-i-responsive.png)
 
@@ -210,7 +210,7 @@ ___
 
 * The user is then provided with a concise welcome section where they can understand exactly what Tedd-Space is and what it aims to achieve. This is accompanied by an image which hopes to envoke a positive emotional response ( "this is somewhere I would like to spend time" ) and draws them to learning more about the wellbeing garden.
 
-* The core goals of Tedd-Space are laid out next, to demonstrate to the user 3 different ways the garden could benefit them.  Icons are used above each goal as hints, so the user understands the core aims of Tedd-Space before they have even read the etxt.  Under each goal, an explore button makes it intuitive for the user to learn more about each topic without even having to use the top navigation menu.  This is an example of using progressive disclosure, to engage the user and gradually present them with more content as they navigate the website.  For consistency of user experience, the explore buttons feature the same transform effect on hovering as experienced in the header and footer.
+* The core goals of Tedd-Space are laid out next, to demonstrate to the user 3 different ways the garden could benefit them.  Icons are used above each goal as hints, so the user understands the core aims of Tedd-Space before they have even read the text.  Under each goal, an explore button makes it intuitive for the user to learn more about each topic without even having to use the top navigation menu.  This is an example of using progressive disclosure, to engage the user and gradually present them with more content as they navigate the website.  For consistency of user experience, the explore buttons feature the same transform effect on hovering as experienced in the header and footer.
 
 <br>
 
@@ -220,7 +220,7 @@ ___
 
 <br>
 
-* This page provides the user with further information about how the Tedd-Space garden can improve wellbeing.  To ensure consitency of user experience, the page layout is similar in format to the about page. There is a concise intro, a calm image to convey the theme of wellbeing and then 3 design features to look out for.
+* This page provides the user with further information about how the Tedd-Space garden can improve wellbeing.  To ensure consitency of user experience, the page layout is similar in format to the About page. There is a concise intro, a calm image to convey the theme of wellbeing and then 3 design features to look out for.
 
 <br>
 
@@ -254,7 +254,7 @@ ___
 
 <br>
 
-* Users are presented with some information about the volunteering opportunities.  They will also have the opportunity to interact with a form by submitting their name, email address, using a drop down menu to signal their availability and a text field for any further details.  A send button with familiar consistent hover effect allows users to submit this information.  Feedback will be give to the user throughout the form interaction, with each input field highlighted when in focus and tooltip alerts if a required field has not been filled in correctly.
+* Users are presented with some information about the volunteering opportunities.  They will also have the opportunity to interact with a form by submitting their name, email address, using a drop down menu to signal their availability and a text area for any further details.  A send button with familiar consistent hover effect allows users to submit this information.  Feedback will be give to the user throughout the form interaction, with each input field highlighted when in focus and tooltip alerts if a required field has not been filled in correctly.
 
 <br>
 
@@ -264,7 +264,7 @@ ___
 
 <br>
 
-* Once the form has been submitted successfully, feedback will given to the user by directing them to a thankyou page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
+* Once the form has been submitted successfully, feedback will given to the user by directing them to a thank you page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
 
 <br>
 
@@ -276,7 +276,7 @@ ___
 
 <br>
 
-* Open Graph and Twitter meta tags have ben used in the head of each page to control how the URL is displayed when shared on social media.  They make content more eye catching in social media feeds, tell people what the content is at a glance and can also increase your brand visibiity through searches.  I learnt about them through this [article](https://ahrefs.com/blog/open-graph-meta-tags/).  Below is an image of how the site is displayed on social media feeds:
+* Open Graph and Twitter meta tags have ben used in the head of each page to control how the URL is displayed when shared on social media.  They make content more eye catching in social media feeds, tell people what the content is at a glance and can also increase your brand visibility through searches.  I learnt about them through this [article](https://ahrefs.com/blog/open-graph-meta-tags/).  Below is an image of how the site is displayed on social media feeds:
 
 <br>
 
@@ -287,9 +287,7 @@ ___
 ## **SKELETON**
 ___
 
-<br>
-
-### **Wireframes**
+## **Wireframes**
 
 <br>
 
@@ -304,10 +302,7 @@ Wireframes for desktop, tablet and mobile:
 <br>
 
 ## **SURFACE**
-
 ___
-
-<br>
 
 ## **Colour Palette**
 
@@ -342,7 +337,7 @@ To ensure that the contrast between the hero background image and hero text was 
 
 <br>
 
-Spacing and typography will remain consistent throughout the site to give the user a sense of familiarity wherever they navigate to another page.  Icons will be used alongside informational headings to hint at content.  The following fonts have been selected from Google Fonts:
+Spacing and typography will remain consistent throughout the site to give the user a sense of familiarity whenever they navigate to another page.  Icons will be used alongside informational headings to hint at content.  The following fonts have been selected from Google Fonts:
 
 * Headings:  Montserrat.  This is a sans-serif font.
 * Body:  Source Sans Pro.  This is a sans-serif font.
@@ -488,10 +483,10 @@ I used the [W3C jigsaw](https://jigsaw.w3.org/css-validator/) CSS Validation Ser
 
 I used Lighthouse within Google Chrome developer tools as a way of testing performance, accessibility, best practices and SEO across all pages of the website.  I made the following tweaks during testing to achieve the final scores:
 
-* Compressed and resized images to improve performance
-* Saved some images as WebP format to improve performance
+* Compressed and resized images to improve performance.
+* Saved some images as WebP format to improve performance.
 * Added more space between footer navigation menu links as this was originally bringing down my mobile accessibility scores.
-* Added aria labels to slideshow navigation controls to improve accessibility score
+* Added aria labels to slideshow navigation controls to improve accessibility score.
 
 <br>
 
@@ -555,7 +550,7 @@ I have used the [WAVE](https://wave.webaim.org/) tool to evaluate the web access
 | I want to encourage positive mental health in the community by promoting the benefits of the garden for emotional wellbeing. | The 'Minds Matter' information on the home page introduces the user to the link between spending time surrounded by nature and better mental health. The ability to learn more about this topic is made easy and intuitive for the user by including an 'explore' button that takes them directly to the Wellbeing page. |  
 | I want to make users aware of how the garden can help them connect with the community through a range of organised events/ classes and activities. | The 'Community' text box on the home page gives the user an introduction into how they can use Tedd-Space to connect with their community.  The ability to learn more about this topic is made easy and intuitive for the user by including an 'explore' button that takes them directly to the Community page. |    
 | I want to increase the number of active volunteers. | The "Belong" text box on the home page helps introduce the user to the concept of volunteering.  The ability to learn more about this topic is made easy and intuitive for the user by including an 'explore' button that takes them directly to the Volunteer page.  A form is easily accessible and easy to use if the user chooses to make contact about offering their time as a volunteer. |                            
-| I want to make sure the site can be viewed on a range of different sized devices. | Media queries have been used to ensure that site content looks appealing and is intuitive to use on dektop, tablet and smaller mobile devices. |
+| I want to make sure the site can be viewed on a range of different sized devices. | Media queries have been used to ensure that the site content looks appealing and is intuitive to use on dektop, tablet and smaller mobile devices. |
 |        |                                                                    
 | First Time Visitors |                                                         
 |        |                                                                  
@@ -721,7 +716,7 @@ The following browsers were used to test on each device:
     }
 }
 ```
-This did decrease the clutter, but I was never quite happy with the visual aesthetic and preferred to keep the burger menu fixed to the right as this is where users expect to find it.  Also this solution increased the height of the header which is not desireable for small mobile devices where screen space is limited.  After a conversation with my mentor, he confirmed that it would be acceptable to shrink down the size of the title, logo and menu in order to keep everything in a row.
+This did decrease the clutter, but I was never quite happy with the visual aesthetic and preferred to keep the burger menu fixed to the right as this is where users expect to find it.  Also this solution increased the height of the header which is not desireable for small mobile devices where screen space is limited.  After a conversation with my mentor, he confirmed that it would be acceptable to use a media query to shrink down the size of the title, logo and menu for screens below 450px, in order to keep everything in a row on smaller devices.
 
 4. On initial testing, the input fields for the form when in focus were still displaying with a blue border when viewed in Firefox or Safari.  I managed to fix this by setting values for both outline-color and outline-style in my css rule.  When in focus, the input fields and text area now have a green border.
 

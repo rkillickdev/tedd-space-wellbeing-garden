@@ -429,10 +429,36 @@ I used the [W3C jigsaw](https://jigsaw.w3.org/css-validator/) CSS Validation Ser
 
 ### **Lighthouse**
 
-I used Lighthouse within Google Chrome developer tools as a way of testing performance, accessibility, best practices and SEO across all pages of the website.  With a few tweaks I have achieved the following scores:
+I used Lighthouse within Google Chrome developer tools as a way of testing performance, accessibility, best practices and SEO across all pages of the website.  I made the following tweaks during testing to achieve the final scores:
+
+* Compressed and resized images to improve performance
+* Saved some images as WebP format to improve performance
+* Added more space between footer navigation menu links as this was originally bringing down my mobile accessibility scores.
+* Added aria labels to slideshow navigation controls to improve accessibility score
 
 ### **Desktop Results**
 
+<br>
+
+![Lighthouse desktop index page results](docs/testing/lighthouse/lighthouse-desktop-index.png)
+![Lighthouse desktop wellbeing page results](docs/testing/lighthouse/lighthouse-desktop-wellbeing.png)
+![Lighthouse desktop community page results](docs/testing/lighthouse/lighthouse-desktop-community.png)
+![Lighthouse desktop visit page results](docs/testing/lighthouse/lighthouse-desktop-visit.png)
+![Lighthouse desktop volunteer page results](docs/testing/lighthouse/lighthouse-desktop-volunteer.png)
+![Lighthouse desktop thankyou page results](docs/testing/lighthouse/lighthouse-desktop-thankyou.png)
+
+<br>
+
+### **Mobile Results**
+
+<br>
+
+![Lighthouse mobile index page results](docs/testing/lighthouse/lighthouse-mobile-index.png)
+![Lighthouse mobile wellbeing page results](docs/testing/lighthouse/lighthouse-mobile-wellbeing.png)
+![Lighthouse mobile community page results](docs/testing/lighthouse/lighthouse-mobile-community.png)
+![Lighthouse mobile visit page results](docs/testing/lighthouse/lighthouse-mobile-visit.png)
+![Lighthouse mobile volunteer page results](docs/testing/lighthouse/lighthouse-mobile-volunteer.png)
+![Lighthouse mobile thankyou page results](docs/testing/lighthouse/lighthouse-mobile-thankyou.png)
 
 
 ### **WAVE**

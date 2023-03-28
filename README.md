@@ -167,6 +167,8 @@ ___
 
 ![Tedd-Space nav menu below 950px](docs/snapshots/tedd-space-nav-menu-below-950px.png)
 
+![Tedd-Space mobile nav menu expanded](docs/snapshots/mobile-nav-expanded.png)
+
 * The footer will feature at the bottom of each page, with social media links to the Tedd-Space Facebook, Twitter and Instagram pages opening in new browser tabs when clicked.  Font awesome icons are used as they are universally recognisable for the user without the need for text.  A hover effect which transforms the icon size to 110% and changes the colour to a lighter green indicates to the user that these links are clickable.  A secondary navigation menu is positioned in the centre of the footer, incase the user is ever at the bottom of the page and wants to naviage to a new location.  A hover effect increasing the font size to 120% indicates that these links are clickable. To ensure that the Tedd-Space brand is visible throughout, the name appears on the left of the footer and clicking on this will always direct the user back to the home page.
 
 ![Tedd-Space Footer represented on different devices](docs/snapshots/tedd-space-footer-am-i-responsive.png)
@@ -592,6 +594,8 @@ The following browsers were used to test on each device:
 
 ## **Bugs**
 
+<br>
+
 ### **Known Bugs**
 
 <br>
@@ -602,6 +606,7 @@ The following browsers were used to test on each device:
 
 3. When the timetable link is clicked on iPad or iPhone, it remains underlined.  This does not happen in Google dev tools when I imitate the same screen sizes so seems to be related to how the device is reading this.
 
+<br>
 
 ### **Solved Bugs**
 
@@ -647,21 +652,11 @@ The following browsers were used to test on each device:
     }
 }
 ```
-
-
 This did decrease the clutter, but I was never quite happy with the visual aesthetic and preferred to keep the burger menu fixed to the right as this is where users expect to find it.  Also this solution increased the height of the header which is not desireable for small mobile devices where screen space is limited.  After a conversation with my mentor, he confirmed that it would be acceptable to shrink down the size of the title, logo and menu in order to keep everything in a row.
 
 4. In testing, there was no cursor pointer when hovering over the form send button, so I added this as a css rule.
 
- 
-
-
-
-
-
-
-
-
+<br>
 
 # **Credits**
 

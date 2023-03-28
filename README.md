@@ -671,9 +671,9 @@ The following browsers were used to test on each device:
 
 1. When interacting with the image slideshow, clicking on any of the slider-nav anchor tags will display a new image but this also jumps the slideshow to the top of the page.  This is not too problematic as it brings the slideshow into focus, but this may be something to fix in future development.  From investigation on [Stack Overflow](https://stackoverflow.com/questions/28377760/when-the-image-of-my-slideshow-changes-the-browser-jumps-to-the-top-of-the-page), it seems that using the # in the anchor tag will always bring the user to the top of the page.
 
-2. Input fields for the form when in focus are still displaying with a blue border when viewed in Firefox or Safari.
+2. When the timetable link is clicked on iPad or iPhone, it remains underlined.  This does not happen in Google dev tools when I imitate the same screen sizes so seems to be related to how the device is reading this.
 
-3. When the timetable link is clicked on iPad or iPhone, it remains underlined.  This does not happen in Google dev tools when I imitate the same screen sizes so seems to be related to how the device is reading this.
+3. Although the form input fields and text area now have a green border when in focus, the border thickness displayed in Safari is thicker than the 1px specified in the css rule.  This is not too problematic but might be good to fix in future revisions.
 
 <br>
 
@@ -723,7 +723,18 @@ The following browsers were used to test on each device:
 ```
 This did decrease the clutter, but I was never quite happy with the visual aesthetic and preferred to keep the burger menu fixed to the right as this is where users expect to find it.  Also this solution increased the height of the header which is not desireable for small mobile devices where screen space is limited.  After a conversation with my mentor, he confirmed that it would be acceptable to shrink down the size of the title, logo and menu in order to keep everything in a row.
 
-4. In testing, there was no cursor pointer when hovering over the form send button, so I added this as a css rule.
+4. On initial testing, the input fields for the form when in focus were still displaying with a blue border when viewed in Firefox or Safari.  I managed to fix this by setting values for both outline-color and outline-style in my css rule.  When in focus, the input fields and text area now have a green border.
+
+```css
+input:focus,
+textarea:focus {
+    outline-style:solid;
+    outline-width: 1px;
+    outline-color: var(--primary-color);
+}
+```
+
+5. During testing, there was no cursor pointer when hovering over the form send button, so I added this as a css rule.
 
 <br>
 

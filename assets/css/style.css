@@ -438,6 +438,7 @@ h2 i {
 .volunteer-form input[type='submit'] {
     font-family: 'source sans pro', sans-serif;
     font-size: 16px;
+    cursor: pointer;
 }
 
 /* Apply body font and colour to placeholder text in form */

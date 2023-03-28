@@ -578,6 +578,7 @@ The following browsers were used to test on each device:
 |        |
 | Form inputs | Input field highlighted with border outline when in focus | click each input field | Input field highlighted with border outline | Pass |
 | Form inputs | Display alert and advice tip if user attempts to submit form without required fields filled in correctly | Attempt to submit form without required fields | Alert and tooltip guides user | Pass |
+| Form send button | Size of button expands and changes to a lighter green when link hovered over | Hover over send button | send button expands in size and changes to a lighter green | Pass |
 | Form send button | Redirect user to thankyou page when form submitted successfully | Submit correctly completed form | Redirected to thankyou page | Pass |
 |       |
 | Thankyou Page |
@@ -592,8 +593,61 @@ The following browsers were used to test on each device:
 ## **Bugs**
 
 ### **Known Bugs**
+
+<br>
+
+1. When interacting with the image slideshow, clicking on any of the slider-nav anchor tags will display a new image but this also jumps the slideshow to the top of the page.  This is not too problematic as it brings the slideshow into focus, but this may be something to fix in future development.  From investigation on [Stack Overflow](https://stackoverflow.com/questions/28377760/when-the-image-of-my-slideshow-changes-the-browser-jumps-to-the-top-of-the-page), it seems that using the # in the anchor tag will always bring the user to the top of the page.
+
+
 ### **Solved Bugs**
 
+<br>
+
+1. When I set my header to be fixed so that it always remained visible as the user scrolled down the page, this caused the problem that I would lose the first section of my page content under the header.  I fixed this by adding a margin-top to the hero image so that it was pushed down and started in the correct position. I also created a top-row class to apply this margin-top to other pages.  Even when I applied the top-row class to the div containing the google map, the required top margin did not appear so I added this margin rule in to the google-map class which was successful.
+
+![Fixed Header bug example](docs/bugs/tedd-space-bug-fixed-header.png)
+
+2. Originally, when an input field on the volunteer form was selected and in focus, this would be highlighted with a default blue border.  This was jarring visually as it was out of keeping with the exisiting colour palette.  I fixed this by writing a css rule to make the outline colour of any input or text area when in focus, the same primary dark green colour that is used throughout the site. 
+
+3. Even when switching to the hamburger menu, at the smaller end of mobile screen devices around 450px the logo, title and hamburger menu became too squashed and the header looked cluttered.  Initially to fix this I used a media query to move the hamburger menu underneath the title and logo. Here is the code I wrote:
+
+```css
+@media only screen and (max-width: 450px) {
+    #nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    #logo img {
+        margin-top: 6px;
+        margin-bottom: 0;       
+    }
+
+    #logo h1 {
+        margin-bottom: 0;
+    }
+    
+    #hamnav .toggle {
+        position:unset;
+        margin: 0;
+        line-height: normal;
+    }
+    #hamburger:checked ~ ul.top-menu {
+        margin-top: 1rem;
+    }
+}
+```
+
+
+This did decrease the clutter, but I was never quite happy with the visual aesthetic and preferred to keep the burger menu fixed to the right as this is where users expect to find it.  Also this solution increased the height of the header which is not desireable for small mobile devices where screen space is limited.  After a conversation with my mentor, he confirmed that it would be acceptable to shrink down the size of the title, logo and menu in order to keep everything in a row.
+
+ 
 
 
 

@@ -243,6 +243,16 @@ ___
 
 ![Tedd-Space Thnakyou Page represented on different devices](docs/snapshots/tedd-space-thankyou-am-i-responsive.png)
 
+<br>
+
+### **Meta Tags for social media display**
+
+<br>
+
+Open Graph and Twitter meta tags have ben used in the head of each page to control how the URL is displayed when shared on social media.  They make content more eye catching in social media feeds, tell people what the content is at a glance and can also increase your brand visibiity through searches.  I learnt about them through this [article](https://ahrefs.com/blog/open-graph-meta-tags/).  Below is an image of how the site is displayed on social media feeds:
+
+![How the site appears in google searches and as social media links](docs/snapshots/social-media-appearance.png)
+
 
 
 ## **SKELETON**

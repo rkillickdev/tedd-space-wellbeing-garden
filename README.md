@@ -1,4 +1,9 @@
 # **Tedd-Space Wellbeing Garden Website**
+
+## **Site Goals**
+
+<br>
+
 The Tedd-Space website has been designed to provide visitors with the opportunity to gather information about a fictional community wellbeing garden based in Teddington, TW11.  The goal of the site owner is to create an online presence to give greater exposure to the garden and increase the user base within the TW11 community. There is a particular emphasis on the positive impact of horticulture and nature on our wellbeing and mental health.
 
 Site users can learn about the ethos and vision of the garden, gain better understanding of the links between nature and wellbeing, gather information about how the garden engages the local community, and easily find the details they need to visit.   They can also learn about volunteering opportunities and register their interest in getting involved.
@@ -10,24 +15,49 @@ ___
 
 # **CONTENTS**
 
-* User Experience (UX)
-    * Strategy
-    * Scope
-    * Structure
-    * Skeleton
-    * Surface
-* Technologies Used
-    * Languages Used
-    * Frameworks, Libraries & Programs Used
-* Deployment & Local Development
-    * How to Fork
-    * How to Clone
-* Testing
-* Credits
-    * Code Used
-    * Content
-    * Media
-    * Acknowledgements
+* [User Experience (UX)](#user-experience-(ux))
+    * [Strategy](#strategy)
+        * [User Stories](#user-stories)
+    * [Scope](#scope)
+    * [Structure](#structure)
+        * [Common Features](#common-features)
+        * [About Page](#about-page)
+        * [Wellbeing Page](#wellbeing-page)
+        * [Community Page](#community-page)
+        * [Visit Page](#visit-page)
+        * [Volunteer Page](#volunteer-page)
+        * [Thankyou Page](#thankyou-page)
+        * [Meta Tags for social media display](#meta-tags-for-social-media-display)
+    * [Skeleton](#skeleton)
+        * [Wireframes](#wireframes)
+    * [Surface](#surface)
+        * [Colour Palette](#colour-palette)
+        * [Contrast](#contrast)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+        * [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
+* [Deployment & Local Development](#deployment-and-local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+    * [Automated Testing](#automated-testing)
+        * [W3c Validator](#w3c-validator)
+        * [Lighthouse](#lighthouse)
+        * [WAVE](#wave)
+    * [Manual Testing](#manual-testing)
+        * [Testing User Stories](#testing-user-stories)
+        * [Full Testing](#full-testing)
+* [Bugs](#bugs)
+    * [Known Bugs](#known-bugs)
+    * [Solved Bugs](#solved-bugs)
+* [Credits](#credits)
+    * [Code Used](#code-used)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
 
 # **User Experience (UX)**
 
@@ -241,7 +271,7 @@ ___
 
 <br>
 
-![Tedd-Space Thnakyou Page represented on different devices](docs/snapshots/tedd-space-thankyou-am-i-responsive.png)
+![Tedd-Space Thankyou Page represented on different devices](docs/snapshots/tedd-space-thankyou-am-i-responsive.png)
 
 <br>
 

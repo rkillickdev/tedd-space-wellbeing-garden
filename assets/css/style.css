@@ -417,6 +417,7 @@ h2 i {
 .volunteer-form {
     width: 100%;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .form-control {

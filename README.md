@@ -11,7 +11,10 @@ Site users can learn about the ethos and vision of the garden, gain better under
 <br>
 
 ![Tedd-Space Index Page represented on different devices](docs/snapshots/tedd-space-index-am-i-responsive.png)
-___
+
+[View the Tedd-Space website on GitHub Pages](https://rkillickdev.github.io/tedd-space-wellbeing-garden/)
+
+<br>
 
 # **CONTENTS**
 
@@ -66,11 +69,7 @@ ___
 
 ### **Why build this site?**
 <br>
-The wellbeing garden was completed in April 2022. Market research carried out by Richmond Council within the local community has highlighted that many residents of TW11 do not know about the garden. So a core goal of the website will be to increase exposure in the hope of attracting a new diverse user base.
-
-<br>
-
-Research has highlighted the toll that the pandemic had on wellbeing and mental health.  So another core goal of the website will be to emphasise how the benefits of the garden can be two fold. Time spent outside engaging with nature along with the opportunity to reduce isolation by connecting with the community.
+The wellbeing garden was completed in April 2022. Market research carried out by Richmond Council within the local community has highlighted that many residents of TW11 do not know about the garden. So a core goal of the website will be to increase exposure in the hope of attracting a new diverse user base.  Research has highlighted the toll that the pandemic had on wellbeing and mental health.  So another core goal of the website will be to emphasise how the benefits of the garden can be two fold. Time spent outside engaging with nature along with the opportunity to reduce isolation by connecting with the community.
 
 <br>
 
@@ -79,9 +78,6 @@ Research has highlighted the toll that the pandemic had on wellbeing and mental 
 <br>
 
 The website will be an online resource where users will go to understand more about the garden, how they can visit and how it could improve their lives.
-
-<br>
-
 ___
 
 ## **User Stories**
@@ -173,13 +169,12 @@ ___
 
 * Addition of a blog page with varied topics covered.  This would give the user the chance to find out more detailed information about the core goals of the site owner, for example in depth features and articles about how gardens and horticulture can improve our physical and mental wellbeing.  This would be a neater solution than simply adding links for articles on external sites.
 
+* Time constraints have meant that I was not able to customise page error messages. However this would be a good future implementation to improve user experience, by providing a clear message to keep the user informed and direct them back to the safety of the site.
+
 <br>
 
 ## **STRUCTURE**
-
 ___
-
-<br>
 
 ### **Common Features**
 
@@ -265,7 +260,9 @@ ___
 
 ![Tedd-Space Volunteer Page represented on different devices](docs/snapshots/tedd-space-volunteer-am-i-responsive.png)
 
-### **Thankyou Page**
+### **Thank You Page**
+
+<br>
 
 * Once the form has been submitted successfully, feedback will given to the user by directing them to a thankyou page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
 
@@ -279,14 +276,15 @@ ___
 
 <br>
 
-Open Graph and Twitter meta tags have ben used in the head of each page to control how the URL is displayed when shared on social media.  They make content more eye catching in social media feeds, tell people what the content is at a glance and can also increase your brand visibiity through searches.  I learnt about them through this [article](https://ahrefs.com/blog/open-graph-meta-tags/).  Below is an image of how the site is displayed on social media feeds:
+* Open Graph and Twitter meta tags have ben used in the head of each page to control how the URL is displayed when shared on social media.  They make content more eye catching in social media feeds, tell people what the content is at a glance and can also increase your brand visibiity through searches.  I learnt about them through this [article](https://ahrefs.com/blog/open-graph-meta-tags/).  Below is an image of how the site is displayed on social media feeds:
+
+<br>
 
 ![How the site appears in google searches and as social media links](docs/snapshots/social-media-appearance.png)
 
-
+<br>
 
 ## **SKELETON**
-
 ___
 
 <br>
@@ -360,6 +358,8 @@ Inspiration for the font combination came from this [article](https://www.theden
 
 Imagery throughout aims to tie in with the goals of the site, for example images of the garden should provide a feeling of calm. Images focusing on the social commmunity aspect should be friendly and welcoming.  The logo used in the header has been chosen for it's simplicity yet it is still able to covey a message to the user - "this is a site that focuses on improving your wellbeing".
 
+<br>
+
 ## **Accessibility**
 
 ___
@@ -374,10 +374,9 @@ To enusure that the website is as accessible as possible for all users and compa
 * Aria labels have been used for interactive elements where no accessible name is provided. For example the hamburger menu icon I have used for smaller screen sizes or the social media links in the footer.
 * The aria hidden attribute has been added to icons that are purely decorative. 
 
+<br>
 
 # **Technologies Used**
-
-<br>
 
 ## **Languages Used**
 
@@ -422,6 +421,8 @@ The live website has been deployed using GitHub Pages, following the steps below
 5. Under the Build and deployment section, select "main" from the select branch menu.  Select "root" from the dropdown select folder menu.
 6. Click save.  The URL for your live site which has been deployed on GitHub pages is shown at the top of the GitHub pages section.  This sometimes does not display immediately or may require a browser refresh.
 
+The live link can be found [here](https://rkillickdev.github.io/tedd-space-wellbeing-garden/)
+
 <br>
 
 ## **Local Development**
@@ -432,23 +433,35 @@ The live website has been deployed using GitHub Pages, following the steps below
 
 <br>
 
-1. Login to GitHub.
+1. Log in (or sign up) to GitHub.
 2. Find the required repository, in this case: rkillickdev/tedd-space-wellbeing-garden
 3. Click on the "fork" button at the top right of the page.
 
 <br>
 
-### **How to clone**
+### **How to clone:**
+
+<br>
+
+1. Log in (or sign up) to GitHub.
+2. Find the required repository, in this case: rkillickdev/tedd-space-wellbeing-garden
+3. Click on the green code button.  This will give you the choice of cloning the repository using HTTPS, an SSH key or GitHub CLI.  Make your selection and copy the provided URL link.
+4. Open Terminal
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type 'git clone' and then paste the URL you copied earlier.
+7. Press enter.
 
 <br>
 
 # **Testing**
 
-<br>
-
 ## **Automated Testing**
 
-### **W3c Validator**
+<br>
+
+### **W3c Validator:**
+
+<br>
 
 I used the [W3C](https://validator.w3.org/) Markup Validation Service to validate the HTML on all pages of the website.
 
@@ -469,7 +482,9 @@ I used the [W3C jigsaw](https://jigsaw.w3.org/css-validator/) CSS Validation Ser
 
 <br>
 
-### **Lighthouse**
+### **Lighthouse:**
+
+<br>
 
 I used Lighthouse within Google Chrome developer tools as a way of testing performance, accessibility, best practices and SEO across all pages of the website.  I made the following tweaks during testing to achieve the final scores:
 
@@ -477,6 +492,8 @@ I used Lighthouse within Google Chrome developer tools as a way of testing perfo
 * Saved some images as WebP format to improve performance
 * Added more space between footer navigation menu links as this was originally bringing down my mobile accessibility scores.
 * Added aria labels to slideshow navigation controls to improve accessibility score
+
+<br>
 
 ### **Desktop Results**
 
@@ -502,8 +519,11 @@ I used Lighthouse within Google Chrome developer tools as a way of testing perfo
 ![Lighthouse mobile volunteer page results](docs/testing/lighthouse/lighthouse-mobile-volunteer.png)
 ![Lighthouse mobile thankyou page results](docs/testing/lighthouse/lighthouse-mobile-thankyou.png)
 
+<br>
 
-### **WAVE**
+### **WAVE:**
+
+<br>
 
 I have used the [WAVE](https://wave.webaim.org/) tool to evaluate the web accessibility of each page on the site:
 
@@ -516,9 +536,13 @@ I have used the [WAVE](https://wave.webaim.org/) tool to evaluate the web access
 | [Volunteer accessibility evaluation](docs/testing/accessibility/wave-accessibility-volunteer.png) | Passed |
 | [Thankyou accessibility evaluation](docs/testing/accessibility/wave-accessibility-thankyou.png) | Passed |
 
+<br>
+
 ## **Manual Testing**
 
-### **Testing User Stories**
+<br>
+
+### **Testing User Stories:**
 
 <br>
 
@@ -550,7 +574,11 @@ I have used the [WAVE](https://wave.webaim.org/) tool to evaluate the web access
 |       |                                                                      
 | I want to be kept up to date with Tedd-Space news, updates and future events. | The community page does satisfy this goal in a limited way, but future implementations such as integrating live social media feeds to the site would offer greater value to repeat vistitors, as they could use the site for the most accurate and up to date information. | 
 
-### **Full Testing**
+<br>
+
+### **Full Testing:**
+
+<br>
 
 Full testing has been carried out on the following devices:
 
@@ -563,6 +591,8 @@ The following browsers were used to test on each device:
 * Google Chrome
 * Firefox
 * Safari
+
+<br>
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | ------- | ---------------- | ----------------- | ------ | --------- |
@@ -629,14 +659,13 @@ The following browsers were used to test on each device:
 | "Keep exploring" link | Size of button expands and changes to a lighter green when link hovered over | Hover over "Keep exploring" link | Button expands in size and changes to a lighter green | Pass |
 | "Keep exploring" link | User redirected to About page when clicked | Click "Keep exploring" link | Redirected to About page | Pass |  
 
-
-
+<br>
 
 ## **Bugs**
 
 <br>
 
-### **Known Bugs**
+### **Known Bugs:**
 
 <br>
 
@@ -648,7 +677,7 @@ The following browsers were used to test on each device:
 
 <br>
 
-### **Solved Bugs**
+### **Solved Bugs:**
 
 <br>
 

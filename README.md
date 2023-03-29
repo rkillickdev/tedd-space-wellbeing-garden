@@ -722,7 +722,11 @@ The following browsers were used to test on each device:
 ```
 This did decrease the clutter, but I was never quite happy with the visual aesthetic and preferred to keep the burger menu fixed to the right as this is where users expect to find it.  Also this solution increased the height of the header which is not desireable for small mobile devices where screen space is limited.  After a conversation with my mentor, he confirmed that it would be acceptable to use a media query to shrink down the size of the title, logo and menu for screens below 450px, in order to keep everything in a row on smaller devices.
 
-4. On initial testing, the input fields for the form when in focus were still displaying with a blue border when viewed in Firefox or Safari.  I managed to fix this by setting values for both outline-color and outline-style in my css rule.  When in focus, the input fields and text area now have a green border.
+<br>
+
+4. My mentor identified a Google Fonts flickering issue, which is particularly visible on slower connections or when hard refreshing the page.  I read more about it with these following articles on [stack overflow](https://stackoverflow.com/questions/65334323/google-fonts-font-family-is-loaded-after-page-how-to-fix-it) and [css-tricks](https://css-tricks.com/almanac/properties/f/font-display/#values).  These articles helped identify that the Google Fonts link in my css file was set to display=swap.  "This instructs the browser to use the fallback font to display the text until the custom font has fully downloaded. This is also known as a 'flash of unstyled text' or FOUT."  My solution was to use display=block in the Google Fonts link which forces the browser to wait until the font is loaded before displaying text.
+
+5. On initial testing, the input fields for the form when in focus were still displaying with a blue border when viewed in Firefox or Safari.  I managed to fix this by setting values for both outline-color and outline-style in my css rule.  When in focus, the input fields and text area now have a green border.
 
 ```css
 input:focus,

@@ -185,17 +185,17 @@ ___
 
 ![Tedd-Space Favicon in browser tab](docs/snapshots/tedd-space-favicon-snapshot.png)
 
-* The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo wil always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  The current page link in the menu shows as bold to always inform the user where they are within the site.   
+* The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo will always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  The current page link in the menu shows as bold to always inform the user where they are within the site.   
 
 ![Tedd-Space nav menu above 950px](docs/snapshots/tedd-space-nav-menu-above-950px.png)
 
-* To ensure a good user experience in all situations, a media query is used to prevent the naviagtion bar looking squashed and cluttered on mobile devices with smaller screen sizes.  The navigation bar is replaced with a burger menu toggler at 950px and under.  For screens at 450px and under, a further media query is used to reduce the overall size of these header items to give everything space.  When the burger icon is selected, the header expands vertically with the navigation menu displayed. I have chosen this method of using the burger icon as it follows convention and is immediately recognisable.  It therefore aligns with user expectation, providing them with an intuitive experience as they navigate the sight.  A recognisable cross icon is used to indicate to the user that clicking will close the menu.
+* To ensure a good user experience in all situations, a media query is used to prevent the navigation bar looking squashed and cluttered on mobile devices with smaller screen sizes.  The navigation bar is replaced with a burger menu toggler at 950px and under.  For screens at 450px and under, a further media query is used to reduce the overall size of these header items to give everything space.  When the burger icon is selected, the header expands vertically with the navigation menu displayed. I have chosen this method of using the burger icon as it follows convention and is immediately recognisable.  It therefore aligns with user expectation, providing them with an intuitive experience as they navigate the sight.  A recognisable cross icon is used to indicate to the user that clicking will close the menu.
 
 ![Tedd-Space nav menu below 950px](docs/snapshots/tedd-space-nav-menu-below-950px.png)
 
 ![Tedd-Space mobile nav menu expanded](docs/snapshots/mobile-nav-expanded.png)
 
-* The footer will feature at the bottom of each page, with social media links to the Tedd-Space Facebook, Twitter and Instagram pages opening in new browser tabs when clicked.  Font awesome icons are used as they are universally recognisable for the user without the need for text.  A hover effect which transforms the icon size to 110% and changes the colour to a lighter green indicates to the user that these links are clickable.  A secondary navigation menu is positioned in the centre of the footer, in case the user is ever at the bottom of the page and wants to naviage to a new location.  A hover effect increasing the font size to 120% indicates that these links are clickable. To ensure that the Tedd-Space brand is visible throughout, the name appears on the left of the footer and clicking on this will always direct the user back to the home page.
+* The footer will feature at the bottom of each page, with social media links to the Tedd-Space Facebook, Twitter and Instagram pages opening in new browser tabs when clicked.  Font awesome icons are used as they are universally recognisable for the user without the need for text.  A hover effect which transforms the icon size to 110% and changes the colour to a lighter green indicates to the user that these links are clickable.  A secondary navigation menu is positioned in the centre of the footer, in case the user is ever at the bottom of the page and wants to navigate to a new location.  A hover effect increasing the font size to 120% indicates that these links are clickable. To ensure that the Tedd-Space brand is visible throughout, the name appears on the left of the footer and clicking on this will always direct the user back to the home page.
 
 ![Tedd-Space Footer represented on different devices](docs/snapshots/tedd-space-footer-am-i-responsive.png)
 
@@ -209,7 +209,7 @@ ___
 
 ![Tedd-Space hero image represented on different devices](docs/snapshots/tedd-space-index-am-i-responsive.png)
 
-* The user is then provided with a concise welcome section where they can understand exactly what Tedd-Space is and what it aims to achieve. This is accompanied by an image which hopes to envoke a positive emotional response ( "this is somewhere I would like to spend time" ) and draws them to learning more about the wellbeing garden.
+* The user is then provided with a concise welcome section where they can understand exactly what Tedd-Space is and what it aims to achieve. This is accompanied by an image which hopes to evoke a positive emotional response ( "this is somewhere I would like to spend time" ) and draws them to learning more about the wellbeing garden.
 
 * The core goals of Tedd-Space are laid out next, to demonstrate to the user 3 different ways the garden could benefit them.  Icons are used above each goal as hints, so the user understands the core aims of Tedd-Space before they have even read the text.  Under each goal, an explore button makes it intuitive for the user to learn more about each topic without even having to use the top navigation menu.  This is an example of using progressive disclosure, to engage the user and gradually present them with more content as they navigate the website.  For consistency of user experience, the explore buttons feature the same transform effect on hovering as experienced in the header and footer.
 
@@ -221,7 +221,7 @@ ___
 
 <br>
 
-* This page provides the user with further information about how the Tedd-Space garden can improve wellbeing.  To ensure consitency of user experience, the page layout is similar in format to the About page. There is a concise intro, a calm image to convey the theme of wellbeing and then 3 design features to look out for.
+* This page provides the user with further information about how the Tedd-Space garden can improve wellbeing.  To ensure consistency of user experience, the page layout is similar in format to the About page. There is a concise intro, a calm image to convey the theme of wellbeing and then 3 design features to look out for.
 
 <br>
 
@@ -277,7 +277,7 @@ ___
 
 <br>
 
-* Open Graph and Twitter meta tags have ben used in the head of each page to control how the URL is displayed when shared on social media.  They make content more eye catching in social media feeds, tell people what the content is at a glance and can also increase your brand visibility through searches.  I learnt about them through this [article](https://ahrefs.com/blog/open-graph-meta-tags/).  Below is an image of how the site is displayed on social media feeds:
+* Open Graph and Twitter meta tags have been used in the head of each page to control how the URL is displayed when shared on social media.  They make content more eye catching in social media feeds, tell people what the content is at a glance and can also increase your brand visibility through searches.  I learnt about them through this [article](https://ahrefs.com/blog/open-graph-meta-tags/).  Below is an image of how the site is displayed on social media feeds:
 
 <br>
 
@@ -309,7 +309,7 @@ ___
 
 <br>
 
-The website aims to use a calming colour palette to align with the Tedd-Space ethos of promoting calm minds.  The user should get the same sense of calmness and wellbeing when navigating the site as they would when visiting the garden.  Green is known to be a soothing colour and also gives the user a sense of being surrounded by nature.  The palette is limited to keep the site looking clean, simple and spacious.  Colours from the [close up leaf](docs/leaf-hero-ref.webp) hero image were extracted using the generator tool on the [coolors](https://coolors.co/) website.  This is the basis for the dark green text that is used consistently throughout the site and the occassional lighter green that is used to give user feedback when hovering over buttons.  The white smoke colour is used against a pure white backdrop to structure the website in a simple clean way, highlighting columns,text boxes and the footer. 
+The website aims to use a calming colour palette to align with the Tedd-Space ethos of promoting calm minds.  The user should get the same sense of calmness and wellbeing when navigating the site as they would when visiting the garden.  Green is known to be a soothing colour and also gives the user a sense of being surrounded by nature.  The palette is limited to keep the site looking clean, simple and spacious.  Colours from the [close up leaf](docs/leaf-hero-ref.webp) hero image were extracted using the generator tool on the [coolors](https://coolors.co/) website.  This is the basis for the dark green text that is used consistently throughout the site and the occasional lighter green that is used to give user feedback when hovering over buttons.  The white smoke colour is used against a pure white backdrop to structure the website in a simple clean way, highlighting columns,text boxes and the footer. 
 
 <br>
 
@@ -352,7 +352,7 @@ Inspiration for the font combination came from this [article](https://www.theden
 
 <br>
 
-Imagery throughout aims to tie in with the goals of the site, for example images of the garden should provide a feeling of calm. Images focusing on the social commmunity aspect should be friendly and welcoming.  The logo used in the header has been chosen for it's simplicity yet it is still able to covey a message to the user - "this is a site that focuses on improving your wellbeing".
+Imagery throughout aims to tie in with the goals of the site, for example images of the garden should provide a feeling of calm. Images focusing on the social community aspect should be friendly and welcoming.  The logo used in the header has been chosen for its simplicity yet it is still able to convey a message to the user - "this is a site that focuses on improving your wellbeing".
 
 <br>
 
@@ -362,7 +362,7 @@ ___
 
 <br>
 
-To enusure that the website is as accessible as possible for all users and compatible with screen readers, I have done the following:
+To ensure that the website is as accessible as possible for all users and compatible with screen readers, I have done the following:
 
 * Semantic markup has been used to structure the HTML code.
 * Check that the colour contrast ratio across the website meets acceptable standards.
@@ -395,7 +395,7 @@ HTML and CSS were used to create the website.
 * Google Developer Tools - Used throughout build of website for debugging, checking responsiveness and trialing new features/ styling.
 * Google Lighthouse - Used at testing stage to show statistics for performance, accessibility,  best practices and SEO.
 * TinyPNG - For compression of image files to improve website performance.
-* Birme - For resizing and reformatting images to make them suitable for use on the website.
+* Birme - For resizing and re-formatting images to make them suitable for use on the website.
 * Am I Responsive? - For displaying images of how the website looks across a range of devices.
 * Favicon.ico & App Icon Generator - for creating the 16x16px ico favicon.
 * [Meta Tags IO](https://metatags.io/) for improving site visual appearance on social media.
@@ -554,7 +554,7 @@ I have used the [WAVE](https://wave.webaim.org/) tool to evaluate the web access
 | I want to encourage positive mental health in the community by promoting the benefits of the garden for emotional wellbeing. | The 'Minds Matter' information on the home page introduces the user to the link between spending time surrounded by nature and better mental health. The ability to learn more about this topic is made easy and intuitive for the user by including an 'explore' button that takes them directly to the Wellbeing page. |  
 | I want to make users aware of how the garden can help them connect with the community through a range of organised events/ classes and activities. | The 'Community' text box on the home page gives the user an introduction into how they can use Tedd-Space to connect with their community.  The ability to learn more about this topic is made easy and intuitive for the user by including an 'explore' button that takes them directly to the Community page. |    
 | I want to increase the number of active volunteers. | The "Belong" text box on the home page helps introduce the user to the concept of volunteering.  The ability to learn more about this topic is made easy and intuitive for the user by including an 'explore' button that takes them directly to the Volunteer page.  A form is easily accessible and easy to use if the user chooses to make contact about offering their time as a volunteer. |                            
-| I want to make sure the site can be viewed on a range of different sized devices. | Media queries have been used to ensure that the site content looks appealing and is intuitive to use on dektop, tablet and smaller mobile devices. |
+| I want to make sure the site can be viewed on a range of different sized devices. | Media queries have been used to ensure that the site content looks appealing and is intuitive to use on desktop, tablet and smaller mobile devices. |
 |        |                                                                    
 | First Time Visitors |                                                         
 |        |                                                                  
@@ -571,7 +571,7 @@ I have used the [WAVE](https://wave.webaim.org/) tool to evaluate the web access
 |       | 
 | Repeat Visitors |                                                            
 |       |                                                                      
-| I want to be kept up to date with Tedd-Space news, updates and future events. | The community page does satisfy this goal in a limited way, but future implementations such as integrating live social media feeds to the site would offer greater value to repeat vistitors, as they could use the site for the most accurate and up to date information. | 
+| I want to be kept up to date with Tedd-Space news, updates and future events. | The community page does satisfy this goal in a limited way, but future implementations such as integrating live social media feeds to the site would offer greater value to repeat visitors, as they could use the site for the most accurate and up to date information. | 
 
 <br>
 
@@ -583,7 +583,7 @@ Full testing has been carried out on the following devices:
 
 * Macbook Pro 2021 14 inch M1 Pro
 * iPhone 11
-* iPad
+* iPad 9th generation A2602
 
 The following browsers were used to test on each device:
 
@@ -668,7 +668,7 @@ The following browsers were used to test on each device:
 
 <br>
 
-1. When interacting with the image slideshow, clicking on any of the slider-nav anchor tags will display a new image but this also jumps the slideshow to the top of the page.  This is not too problematic as it brings the slideshow into focus, but this may be something to fix in future development.  From investigation on [Stack Overflow](https://stackoverflow.com/questions/28377760/when-the-image-of-my-slideshow-changes-the-browser-jumps-to-the-top-of-the-page), it seems that using the # in the anchor tag will always bring the user to the top of the page.  On further research, it seems that this issue would be fixable using some java script which is not within the scope of this project, but could be a future implementation.
+1. When interacting with the image slideshow, clicking on any of the slider-nav anchor tags will display a new image but this also jumps the slideshow to the top of the page.  This is not too problematic as it brings the slideshow into focus, but this may be something to fix in future development.  From investigation on [Stack Overflow](https://stackoverflow.com/questions/28377760/when-the-image-of-my-slideshow-changes-the-browser-jumps-to-the-top-of-the-page), it seems that using the # in the anchor tag will always bring the user to the top of the page.  On further research, it seems that this issue would be fixable using some JavaScript which is not within the scope of this project, but could be a future implementation.
 
 2. When the timetable link is clicked on iPad or iPhone, it remains underlined.  This does not happen in Google dev tools when I imitate the same screen sizes so seems to be related to how the device is reading this.
 
@@ -684,7 +684,7 @@ The following browsers were used to test on each device:
 
 ![Fixed Header bug example](docs/bugs/tedd-space-bug-fixed-header.png)
 
-2. Originally, when an input field on the volunteer form was selected and in focus, this would be highlighted with a default blue border.  This was jarring visually as it was out of keeping with the exisiting colour palette.  I fixed this by writing a css rule to make the outline colour of any input or text area when in focus, the same primary dark green colour that is used throughout the site. 
+2. Originally, when an input field on the volunteer form was selected and in focus, this would be highlighted with a default blue border.  This was jarring visually as it was out of keeping with the existing colour palette.  I fixed this by writing a css rule to make the outline colour of any input or textarea when in focus, the same primary dark green colour that is used throughout the site. 
 
 3. Even when switching to the hamburger menu, at the smaller end of mobile screen devices around 450px the logo, title and hamburger menu became too squashed and the header looked cluttered.  Initially to fix this I used a media query to move the hamburger menu underneath the title and logo. Here is the code I wrote:
 
@@ -720,7 +720,7 @@ The following browsers were used to test on each device:
     }
 }
 ```
-This did decrease the clutter, but I was never quite happy with the visual aesthetic and preferred to keep the burger menu fixed to the right as this is where users expect to find it.  Also this solution increased the height of the header which is not desireable for small mobile devices where screen space is limited.  After a conversation with my mentor, he confirmed that it would be acceptable to use a media query to shrink down the size of the title, logo and menu for screens below 450px, in order to keep everything in a row on smaller devices.
+This did decrease the clutter, but I was never quite happy with the visual aesthetic and preferred to keep the burger menu fixed to the right as this is where users expect to find it.  Also this solution increased the height of the header which is not desirable for small mobile devices where screen space is limited.  After a conversation with my mentor, he confirmed that it would be acceptable to use a media query to shrink down the size of the title, logo and menu for screens below 450px, in order to keep everything in a row on smaller devices.
 
 <br>
 
@@ -753,7 +753,7 @@ textarea:focus {
 * [Hero image text fade in animation](https://blog.hubspot.com/website/css-fade-in)
 * [Tutorial for creating hamburger nav menu for mobile devices](https://www.youtube.com/watch?v=SIzi9z8mrTk)
 * [How to style placeholder text](https://www.samanthaming.com/tidbits/57-styling-css-placeholder/)
-* [Emeddding google maps on visit page](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
+* [Embedding google maps on visit page](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
 * [Adding a favicon to the browser tab](https://www.w3schools.com/html/html_favicon.asp)
 
 <br>
@@ -775,6 +775,6 @@ textarea:focus {
 ## **Acknowledgements**
 
 * To my family for supporting me through this journey!
-* To my my Code Institue Mentor Can Sucullu for his help, advice and feedback during our mentoring sessions.
+* To my my Code Institute Mentor Can Sucullu for his help, advice and feedback during our mentoring sessions.
 
 

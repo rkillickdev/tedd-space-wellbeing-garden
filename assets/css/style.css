@@ -57,7 +57,7 @@ h2 i {
 }
 
 /* NAVIGATION MENU */
-/* Nav for mobile device from 450px to 950px */
+/* Nav for mobile device from 450px to 950px. YouTube tutorial used for this feature: https://www.youtube.com/watch?v=SIzi9z8mrTk */
 
 .navbar {
     height:fit-content;
@@ -290,7 +290,7 @@ h2 i {
 }
 
 /* SLIDESHOW SECTION */
-/* Code referenced from Skillthrive YouTube Tutorial.  See README for link */
+/* Code referenced from Skillthrive YouTube Tutorial.  https://www.youtube.com/watch?v=McPdzhLRzCg */
 
 .slider-wrapper {
     position: relative;
@@ -442,7 +442,7 @@ h2 i {
     cursor: pointer;
 }
 
-/* Apply body font and colour to placeholder text in form */
+/* Apply body font and colour to placeholder text in form.  Referenced from the following link: https://www.samanthaming.com/tidbits/57-styling-css-placeholder/ */
 
 ::placeholder {
     font-family: 'source sans pro', sans-serif;
@@ -623,7 +623,7 @@ textarea:focus {
     }
 }
 
-/* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */
+/* Utility Margin Settings referenced from CSS Grid/ Flexbox tutorial.  https://www.youtube.com/watch?v=p0bGHP-PXD4 */
 
 .my-1 {
     margin: 1rem 0;
@@ -665,7 +665,7 @@ textarea:focus {
     margin: 4rem;
 }
 
-/* Utility Padding Settings referenced from CSS Grid/ Flexbox tutorial.  See link in README file */
+/* Utility Padding Settings referenced from CSS Grid/ Flexbox tutorial.  https://www.youtube.com/watch?v=p0bGHP-PXD4 */
 
 .py-1 {
     padding: 1rem 0;

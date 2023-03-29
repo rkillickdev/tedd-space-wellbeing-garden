@@ -185,7 +185,7 @@ ___
 
 ![Tedd-Space Favicon in browser tab](docs/snapshots/tedd-space-favicon-snapshot.png)
 
-* The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo will always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant section. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  The current page link in the menu shows as bold to always inform the user where they are within the site.   
+* The header will feature at the top of each page with the site name and logo to the left and a responsive navigation bar will be positioned to the right.  This header will remain fixed as you scroll down the page, always allowing the user to easily jump to the section they are interested in.  Clicking on the Tedd-Space name and logo will always take the user back to the about page.  Clicking on the navigation links will jump the user to the relevant page. Following the principles of information architecture,  as these links are all closely tied to the core user needs and owner objectives they are positioned at the highest level of the site.  Hovering over any of the navigation menu links transforms the font size to 120% and the cursor changes to a hand pointer, indicating that clicking will take the user to a new page, therefore making the experience intuitive.  The current page link in the menu shows as bold to always inform the user where they are within the site.   
 
 ![Tedd-Space nav menu above 950px](docs/snapshots/tedd-space-nav-menu-above-950px.png)
 
@@ -233,7 +233,7 @@ ___
 
 * This provides the user with information about the community aspect of Tedd-Space.  The timetable of activities is prominent and features the same background leaf image used on the landing page.  The follow us button makes it easy for the user to find social media links, and there is a link to direct them back  to the timetable if they have scrolled past this but then want to find out more.  
 
-* The slide show provides the user with an opportunity to interact with the site and build an understanding of how the garden could be used.
+* The slide show provides the user with an opportunity to interact with the site and build an understanding of how the garden could be used socially.
 
 * Descriptions of 3 different types of community engagement are detailed in the familiar 3 column layout (collapses to single column on mobile devices below 950px).  Font awesome icons ensure that there is continuity and familiarity between pages.
 
@@ -255,7 +255,7 @@ ___
 
 <br>
 
-* Users are presented with some information about the volunteering opportunities.  They will also have the opportunity to interact with a form by submitting their name, email address, using a drop down menu to signal their availability and a text area for any further details.  A send button with familiar consistent hover effect allows users to submit this information.  Feedback will be give to the user throughout the form interaction, with each input field highlighted when in focus and tooltip alerts if a required field has not been filled in correctly.
+* Users are presented with some information about the volunteering opportunities.  They will also have the opportunity to interact with a form by submitting their name, email address, using a drop down menu to signal their availability and a text area for any further details.  A send button with familiar consistent hover effect allows users to submit this information.  Feedback will be given to the user throughout the form interaction, with each input field highlighted when in focus and tooltip alerts if a required field has not been filled in correctly.
 
 <br>
 
@@ -265,7 +265,7 @@ ___
 
 <br>
 
-* Once the form has been submitted successfully, feedback will given to the user by directing them to a thank you page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
+* Once the form has been submitted successfully, feedback will be given to the user by directing them to a thank you page.  Here they will be thanked for their interest and told that someone from Tedd-Space will be in touch as soon as possible.  The keep exploring button allows users to be guided back to the website home page. 
 
 <br>
 
@@ -745,7 +745,7 @@ textarea:focus {
 
 ## **Code Used**
 
-* [Tutorial for setting base CSS and setting up CSS Grid/ Flexbox](https://www.youtube.com/watch?v=p0bGHP-PXD4)
+* [Tutorial for setting base CSS and, setting up CSS Grid/ Flexbox and inspiration for styling form](https://www.youtube.com/watch?v=p0bGHP-PXD4)
 * [Inspiration for navbar box shadow from Tails.com website](https://tails.com/gb/)
 * [Solution for creating fixed navbar with content scrolling underneath](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox)
 * [Tutorial for creating picture slideshow on community page](https://www.youtube.com/watch?v=McPdzhLRzCg)
@@ -760,7 +760,8 @@ textarea:focus {
 
 ## **Content**
 
-* Text content for site referenced and modified from [RHS Your Wellbeing Garden book](https://www.amazon.co.uk/RHS-Your-Wellbeing-Garden-Practice/dp/0241386721)
+* Text content written by myself
+* Additional text used or modified from the [RHS Your Wellbeing Garden book](https://www.amazon.co.uk/RHS-Your-Wellbeing-Garden-Practice/dp/0241386721)
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)
 
 <br>

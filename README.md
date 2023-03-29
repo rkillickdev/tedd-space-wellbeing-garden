@@ -672,7 +672,7 @@ The following browsers were used to test on each device:
 
 2. When the timetable link is clicked on iPad or iPhone, it remains underlined.  This does not happen in Google dev tools when I imitate the same screen sizes so seems to be related to how the device is reading this.
 
-3. Although the form input fields and text area now have a green border when in focus, the border thickness displayed in Safari is thicker than the 1px specified in the css rule.  This is not too problematic but might be good to fix in future revisions.
+3. Although the form input fields and text area now have a green border when in focus, the border thickness displayed in Safari is thicker than the 1px specified in the css rule.  This is not too problematic but might be good to fix in future revisions.  On further testing, this issue does not seem to be consistent in Safari as on my latest round of checks the border thickness was behaving as expected and matching the appearance of Chrome and Firefox.
 
 <br>
 
@@ -724,7 +724,7 @@ This did decrease the clutter, but I was never quite happy with the visual aesth
 
 <br>
 
-4. My mentor identified a Google Fonts flickering issue, which is particularly visible on slower connections or when hard refreshing the page.  I read more about it with these following articles on [stack overflow](https://stackoverflow.com/questions/65334323/google-fonts-font-family-is-loaded-after-page-how-to-fix-it) and [css-tricks](https://css-tricks.com/almanac/properties/f/font-display/#values).  These articles helped identify that the Google Fonts link in my css file was set to display=swap.  "This instructs the browser to use the fallback font to display the text until the custom font has fully downloaded. This is also known as a 'flash of unstyled text' or FOUT."  My solution was to use display=block in the Google Fonts link which forces the browser to wait until the font is loaded before displaying text.
+4. My mentor identified a Google Fonts flickering issue, which is particularly visible on slower connections or when hard refreshing the page.  I read more about it with these following articles on [stack overflow](https://stackoverflow.com/questions/65334323/google-fonts-font-family-is-loaded-after-page-how-to-fix-it) and [css-tricks](https://css-tricks.com/almanac/properties/f/font-display/#values).  These articles helped identify that the Google Fonts link in my css file was set to display=swap.  "This instructs the browser to use the fallback font to display the text until the custom font has fully downloaded. This is also known as a 'flash of unstyled text' or FOUT."  My solution was to use display=fallback in the Google Fonts link which acts in the following way:  "The browser will hide the text for about 100ms and, if the font has not yet been downloaded, will use the fallback text. It will swap to the new font after it is downloaded, but only during a short swap period (probably 3 seconds)."
 
 5. On initial testing, the input fields for the form when in focus were still displaying with a blue border when viewed in Firefox or Safari.  I managed to fix this by setting values for both outline-color and outline-style in my css rule.  When in focus, the input fields and text area now have a green border.
 

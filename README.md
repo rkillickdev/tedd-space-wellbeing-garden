@@ -16,9 +16,9 @@ Site users can learn about the ethos and vision of the garden, gain better under
 
 <br>
 
-# **CONTENTS**
+## **CONTENTS**
 
-* [User Experience (UX)](#user-experience-(ux))
+* [User Experience (UX)](#user-experience-ux)
     * [Strategy](#strategy)
         * [User Stories](#user-stories)
     * [Scope](#scope)
@@ -29,7 +29,7 @@ Site users can learn about the ethos and vision of the garden, gain better under
         * [Community Page](#community-page)
         * [Visit Page](#visit-page)
         * [Volunteer Page](#volunteer-page)
-        * [Thankyou Page](#thankyou-page)
+        * [Thank you Page](#thank-you-page)
         * [Meta Tags for social media display](#meta-tags-for-social-media-display)
     * [Skeleton](#skeleton)
         * [Wireframes](#wireframes)
@@ -41,13 +41,13 @@ Site users can learn about the ethos and vision of the garden, gain better under
         * [Accessibility](#accessibility)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
-    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
-* [Deployment & Local Development](#deployment-and-local-development)
+    * [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+* [Deployment and Local Development](#deployment-and-local-development)
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
 * [Testing](#testing)
     * [Automated Testing](#automated-testing)
-        * [W3c Validator](#w3c-validator)
+        * [W3C Validator](#w3c-validator)
         * [Lighthouse](#lighthouse)
         * [WAVE](#wave)
     * [Manual Testing](#manual-testing)
@@ -81,6 +81,7 @@ The website will be an online resource where users will go to understand more ab
 ___
 
 ## **User Stories**
+
 <br>
 
 ### Client Goals:
@@ -381,7 +382,7 @@ HTML and CSS were used to create the website.
 
 <br>
 
-## **Frameworks, Libraries & Programs Used**
+## **Frameworks, Libraries and Programs Used**
 
 <br>
 
@@ -391,15 +392,18 @@ HTML and CSS were used to create the website.
 * Balsamiq - Used to create wireframes.
 * Font Awesome - Used for all icons throughout the website.
 * Google Fonts - Used to import required fonts for the website via the css style page.
-* Google Developer Tools - Used throughout build of website for debugging and trialing new features/ styling.
+* Google Developer Tools - Used throughout build of website for debugging, checking responsiveness and trialing new features/ styling.
 * Google Lighthouse - Used at testing stage to show statistics for performance, accessibility,  best practices and SEO.
 * TinyPNG - For compression of image files to improve website performance.
 * Birme - For resizing and reformatting images to make them suitable for use on the website.
 * Am I Responsive? - For displaying images of how the website looks across a range of devices.
+* Favicon.ico & App Icon Generator - for creating the 16x16px ico favicon.
+* [Meta Tags IO](https://metatags.io/) for improving site visual appearance on social media.
+
 
 <br>
 
-# **Deployment & Local Development**
+# **Deployment and Local Development**
 
 <br> 
 
@@ -454,7 +458,7 @@ The live link can be found [here](https://rkillickdev.github.io/tedd-space-wellb
 
 <br>
 
-### **W3c Validator:**
+### **W3C Validator:**
 
 <br>
 
@@ -664,7 +668,7 @@ The following browsers were used to test on each device:
 
 <br>
 
-1. When interacting with the image slideshow, clicking on any of the slider-nav anchor tags will display a new image but this also jumps the slideshow to the top of the page.  This is not too problematic as it brings the slideshow into focus, but this may be something to fix in future development.  From investigation on [Stack Overflow](https://stackoverflow.com/questions/28377760/when-the-image-of-my-slideshow-changes-the-browser-jumps-to-the-top-of-the-page), it seems that using the # in the anchor tag will always bring the user to the top of the page.
+1. When interacting with the image slideshow, clicking on any of the slider-nav anchor tags will display a new image but this also jumps the slideshow to the top of the page.  This is not too problematic as it brings the slideshow into focus, but this may be something to fix in future development.  From investigation on [Stack Overflow](https://stackoverflow.com/questions/28377760/when-the-image-of-my-slideshow-changes-the-browser-jumps-to-the-top-of-the-page), it seems that using the # in the anchor tag will always bring the user to the top of the page.  On further research, it seems that this issue would be fixable using some java script which is not within the scope of this project, but could be a future implementation.
 
 2. When the timetable link is clicked on iPad or iPhone, it remains underlined.  This does not happen in Google dev tools when I imitate the same screen sizes so seems to be related to how the device is reading this.
 
@@ -747,18 +751,26 @@ textarea:focus {
 * [How to style placeholder text](https://www.samanthaming.com/tidbits/57-styling-css-placeholder/)
 * [Emeddding google maps on visit page](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
 * [Adding a favicon to the browser tab](https://www.w3schools.com/html/html_favicon.asp)
-* [Meta Tags IO for improving site visual appearance on social media](https://metatags.io/)
+
+<br>
 
 ## **Content**
 
 * Text content for site referenced and modified from [RHS Your Wellbeing Garden book](https://www.amazon.co.uk/RHS-Your-Wellbeing-Garden-Practice/dp/0241386721)
 * [Inspiration for Typography](https://www.thedenizenco.com/journal/clean-minimal-font-pairings)
 
+<br>
+
 ## **Media**
 
 * [Royalty free images used throughout the site from Pexels](https://www.pexels.com/)
 * [Free Logo Maker Website used for Tedd-Space logo](https://logomakr.com/app)
 
+<br>
+
 ## **Acknowledgements**
+
+* To my family for supporting me through this journey!
+* To my my Code Institue Mentor Can Sucullu for his help, advice and feedback during our mentoring sessions.
 
 

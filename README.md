@@ -101,7 +101,7 @@ ___
 
 <br>
 
-* As a first time user, I want to know more about the garden and it’s vision for the community.
+* As a first time visitor, I want to know more about the garden and it’s vision for the community.
 * As a first time visitor, I want to know how the garden could have a positive impact on my wellbeing, so I can decide whether I could use it.
 * As a first time visitor, I want to view address details and opening hours, so that I know where to visit and when.
 * As a first time visitor, I want to be able to find out more about volunteering, so I can decide whether this could be for me.
